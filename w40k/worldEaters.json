@@ -5,7 +5,7 @@
         "rulesetId": "w40k.10e.we",
         "name": "World Eaters",
         "enabled": true,
-        "endpoint": "worldEaters.json"
+        "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/worldEaters.json"
     },
     "detachments": [
         {
