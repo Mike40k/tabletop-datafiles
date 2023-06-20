@@ -5,7 +5,7 @@
         "rulesetId": "w40k.10e.sm",
         "name": "Space Marines",
         "enabled": false,
-        "endpoint": "spaceMarines.json"
+        "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/spaceMarines.json"
     },
     "detachments": [
         {
