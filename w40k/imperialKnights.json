@@ -5,7 +5,7 @@
         "rulesetId": "w40k.10e.ik",
         "name": "Imperial Knights",
         "enabled": true,
-        "endpoint": "imperialKnights.json"
+        "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/imperialKnights.json"
     },
     "detachments": [
         {
