@@ -1,0 +1,25 @@
+{
+    "config": {
+        "id": "w40k.10e.am.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.am",
+        "name": "Astra Militarum",
+        "enabled": false,
+        "endpoint": "astraMilitarum.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.am.dt.combinedRegiment",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.am",
+            "name": "Combined Regiment",
+            "rule": ""
+        }
+    ],
+    "upgrades": [
+
+    ],
+    "units": [
+        
+    ]
+}
