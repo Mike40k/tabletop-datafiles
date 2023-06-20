@@ -5,7 +5,7 @@
         "rulesetId": "w40k.10e.gk",
         "name": "Grey Knights",
         "enabled": true,
-        "endpoint": "greyKnights.json"
+        "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/greyKnights.json"
     },
     "detachments": [
         {
