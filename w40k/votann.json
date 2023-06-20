@@ -1,0 +1,1435 @@
+{
+    "config": {
+        "id": "w40k.10e.vtn.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.vtn",
+        "name": "Leagues of Votann",
+        "enabled": true,
+        "endpoint": "votann.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.vtn.dt.cultOfMagic",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Oathband",
+            "rule": ""
+        }
+    ],
+    "upgrades": [
+        {
+            "id": "w40k.10e.vtn.upg.appraisingGlare",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.vtn",
+            "upgradeType": "enhancement",
+            "name": "Appraising Glare",
+            "rule": "",
+            "points": 20
+        },
+        {
+            "id": "w40k.10e.vtn.upg.longList",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.vtn",
+            "upgradeType": "enhancement",
+            "name": "A Long List",
+            "rule": "",
+            "points": 15
+        },
+        {
+            "id": "w40k.10e.vtn.upg.grimDemeanour",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.vtn",
+            "upgradeType": "enhancement",
+            "name": "Grim Demeanour",
+            "rule": "",
+            "points": 20
+        },
+        {
+            "id": "w40k.10e.vtn.upg.wayfarersGrace",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.vtn",
+            "upgradeType": "enhancement",
+            "name": "Wayfarer's Grace",
+            "rule": "",
+            "points": 25
+        },
+        {
+            "id": "w40k.10e.vtn.upg.medipac",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.vtn",
+            "upgradeType": "wargear",
+            "name": "Medipac",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.vtn.upg.commsArray",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.vtn",
+            "upgradeType": "wargear",
+            "name": "Comms Array",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.vtn.upg.scanner",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.vtn",
+            "upgradeType": "wargear",
+            "name": "Pan Spectral Scanner",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.vtn.upg.searchlight",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.vtn",
+            "upgradeType": "wargear",
+            "name": "Rollbar Searchlight",
+            "rule": ""
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.vtn.unit.uthar",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Uthar the Destined",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Uthar the Destined",
+                    "points": 115,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.kahl",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Kahl",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Kahl",
+                    "points": 90,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autoch-pattern Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autoch-pattern Combi-bolter"
+                                },
+                                {
+                                    "name": "Volkanite Disintegrator"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Forgewrought Plasma Axe"
+                            },
+                            "options": [
+                                {
+                                    "name": "Forgewrought Plasma Axe"
+                                },
+                                {
+                                    "name": "Mass Gauntlet"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Rampart Crest"
+                            },
+                            "options": [
+                                {
+                                    "name": "Rampart Crest"
+                                },
+                                {
+                                    "name": "Teleport Crest"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.appraisingGlare",
+                        "w40k.10e.vtn.upg.longList",
+                        "w40k.10e.vtn.upg.grimDemeanour",
+                        "w40k.10e.vtn.upg.wayfarersGrace"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.einhyrChampion",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Einhyr Champion",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Einhyr Champion",
+                    "points": 75,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Mass Hammer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Mass Hammer"
+                                },
+                                {
+                                    "name": "Darkstar Axe"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Weavefield Crest"
+                            },
+                            "options": [
+                                {
+                                    "name": "Weavefield Crest"
+                                },
+                                {
+                                    "name": "Teleport Crest"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.appraisingGlare",
+                        "w40k.10e.vtn.upg.longList",
+                        "w40k.10e.vtn.upg.grimDemeanour",
+                        "w40k.10e.vtn.upg.wayfarersGrace"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.grimnyr",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Grimnyr",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Grimnyr",
+                    "points": 75,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.appraisingGlare",
+                        "w40k.10e.vtn.upg.longList",
+                        "w40k.10e.vtn.upg.grimDemeanour",
+                        "w40k.10e.vtn.upg.wayfarersGrace"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.brokhyr",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Brokhyr Iron-master",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Grimnyr",
+                    "points": 75,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.appraisingGlare",
+                        "w40k.10e.vtn.upg.longList",
+                        "w40k.10e.vtn.upg.grimDemeanour",
+                        "w40k.10e.vtn.upg.wayfarersGrace"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.hearthkyn",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Hearthkyn Warriors",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Hearthkyn Warrior, Theyn",
+                    "amount": 10,
+                    "cost": 135
+                }
+            ],
+            "models": [
+                {
+                    "name": "Hearthkyn Warrior",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autoch-pattern Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autoch-pattern Bolter"
+                                },
+                                {
+                                    "name": "Ionblaster"
+                                },
+                                {
+                                    "name": "HYLas Auto Rifle"
+                                },
+                                {
+                                    "name": "HYLas Rotary Cannon"
+                                },
+                                {
+                                    "name": "L7 Missile Launcher"
+                                },
+                                {
+                                    "name": "EtaCarn Plasma Beamer"
+                                },
+                                {
+                                    "name": "Magna-rail Rifle"
+                                },
+                                {
+                                    "name": "Kin Melee Weapon"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.medipac",
+                        "w40k.10e.vtn.upg.commsArray",
+                        "w40k.10e.vtn.upg.scanner"
+                    ]
+                },
+                {
+                    "name": "Hearthkyn Warrior",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autoch-pattern Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autoch-pattern Bolter"
+                                },
+                                {
+                                    "name": "Ionblaster"
+                                },
+                                {
+                                    "name": "HYLas Auto Rifle"
+                                },
+                                {
+                                    "name": "HYLas Rotary Cannon"
+                                },
+                                {
+                                    "name": "L7 Missile Launcher"
+                                },
+                                {
+                                    "name": "EtaCarn Plasma Beamer"
+                                },
+                                {
+                                    "name": "Magna-rail Rifle"
+                                },
+                                {
+                                    "name": "Kin Melee Weapon"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.medipac",
+                        "w40k.10e.vtn.upg.commsArray",
+                        "w40k.10e.vtn.upg.scanner"
+                    ]
+                },
+                {
+                    "name": "Hearthkyn Warrior",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autoch-pattern Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autoch-pattern Bolter"
+                                },
+                                {
+                                    "name": "Ionblaster"
+                                },
+                                {
+                                    "name": "HYLas Auto Rifle"
+                                },
+                                {
+                                    "name": "HYLas Rotary Cannon"
+                                },
+                                {
+                                    "name": "L7 Missile Launcher"
+                                },
+                                {
+                                    "name": "EtaCarn Plasma Beamer"
+                                },
+                                {
+                                    "name": "Magna-rail Rifle"
+                                },
+                                {
+                                    "name": "Kin Melee Weapon"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.medipac",
+                        "w40k.10e.vtn.upg.commsArray",
+                        "w40k.10e.vtn.upg.scanner"
+                    ]
+                },
+                {
+                    "name": "Hearthkyn Warrior",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autoch-pattern Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autoch-pattern Bolter"
+                                },
+                                {
+                                    "name": "Ionblaster"
+                                },
+                                {
+                                    "name": "HYLas Auto Rifle"
+                                },
+                                {
+                                    "name": "HYLas Rotary Cannon"
+                                },
+                                {
+                                    "name": "L7 Missile Launcher"
+                                },
+                                {
+                                    "name": "EtaCarn Plasma Beamer"
+                                },
+                                {
+                                    "name": "Magna-rail Rifle"
+                                },
+                                {
+                                    "name": "Kin Melee Weapon"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.medipac",
+                        "w40k.10e.vtn.upg.commsArray",
+                        "w40k.10e.vtn.upg.scanner"
+                    ]
+                },
+                {
+                    "name": "Hearthkyn Warrior",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autoch-pattern Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autoch-pattern Bolter"
+                                },
+                                {
+                                    "name": "Ionblaster"
+                                },
+                                {
+                                    "name": "HYLas Auto Rifle"
+                                },
+                                {
+                                    "name": "HYLas Rotary Cannon"
+                                },
+                                {
+                                    "name": "L7 Missile Launcher"
+                                },
+                                {
+                                    "name": "EtaCarn Plasma Beamer"
+                                },
+                                {
+                                    "name": "Magna-rail Rifle"
+                                },
+                                {
+                                    "name": "Kin Melee Weapon"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.medipac",
+                        "w40k.10e.vtn.upg.commsArray",
+                        "w40k.10e.vtn.upg.scanner"
+                    ]
+                },
+                {
+                    "name": "Hearthkyn Warrior",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autoch-pattern Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autoch-pattern Bolter"
+                                },
+                                {
+                                    "name": "Ionblaster"
+                                },
+                                {
+                                    "name": "HYLas Auto Rifle"
+                                },
+                                {
+                                    "name": "HYLas Rotary Cannon"
+                                },
+                                {
+                                    "name": "L7 Missile Launcher"
+                                },
+                                {
+                                    "name": "EtaCarn Plasma Beamer"
+                                },
+                                {
+                                    "name": "Magna-rail Rifle"
+                                },
+                                {
+                                    "name": "Kin Melee Weapon"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.medipac",
+                        "w40k.10e.vtn.upg.commsArray",
+                        "w40k.10e.vtn.upg.scanner"
+                    ]
+                },
+                {
+                    "name": "Hearthkyn Warrior",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autoch-pattern Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autoch-pattern Bolter"
+                                },
+                                {
+                                    "name": "Ionblaster"
+                                },
+                                {
+                                    "name": "HYLas Auto Rifle"
+                                },
+                                {
+                                    "name": "HYLas Rotary Cannon"
+                                },
+                                {
+                                    "name": "L7 Missile Launcher"
+                                },
+                                {
+                                    "name": "EtaCarn Plasma Beamer"
+                                },
+                                {
+                                    "name": "Magna-rail Rifle"
+                                },
+                                {
+                                    "name": "Kin Melee Weapon"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.medipac",
+                        "w40k.10e.vtn.upg.commsArray",
+                        "w40k.10e.vtn.upg.scanner"
+                    ]
+                },
+                {
+                    "name": "Hearthkyn Warrior",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autoch-pattern Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autoch-pattern Bolter"
+                                },
+                                {
+                                    "name": "Ionblaster"
+                                },
+                                {
+                                    "name": "HYLas Auto Rifle"
+                                },
+                                {
+                                    "name": "HYLas Rotary Cannon"
+                                },
+                                {
+                                    "name": "L7 Missile Launcher"
+                                },
+                                {
+                                    "name": "EtaCarn Plasma Beamer"
+                                },
+                                {
+                                    "name": "Magna-rail Rifle"
+                                },
+                                {
+                                    "name": "Kin Melee Weapon"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.medipac",
+                        "w40k.10e.vtn.upg.commsArray",
+                        "w40k.10e.vtn.upg.scanner"
+                    ]
+                },
+                {
+                    "name": "Hearthkyn Warrior",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autoch-pattern Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autoch-pattern Bolter"
+                                },
+                                {
+                                    "name": "Ionblaster"
+                                },
+                                {
+                                    "name": "HYLas Auto Rifle"
+                                },
+                                {
+                                    "name": "HYLas Rotary Cannon"
+                                },
+                                {
+                                    "name": "L7 Missile Launcher"
+                                },
+                                {
+                                    "name": "EtaCarn Plasma Beamer"
+                                },
+                                {
+                                    "name": "Magna-rail Rifle"
+                                },
+                                {
+                                    "name": "Kin Melee Weapon"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.medipac",
+                        "w40k.10e.vtn.upg.commsArray",
+                        "w40k.10e.vtn.upg.scanner"
+                    ]
+                },
+                {
+                    "name": "Theyn",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autoch-pattern Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autoch-pattern Bolter"
+                                },
+                                {
+                                    "name": "Ionblaster"
+                                },
+                                {
+                                    "name": "Kin Melee Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Autoch-pattern Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autoch-pattern Bolt Pistol"
+                                },
+                                {
+                                    "name": "Ion Pistol"
+                                },
+                                {
+                                    "name": "EtaCarn Plasma Pistol"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.hearthguard",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Hearthguard",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Hearthguard, Hesyr",
+                    "amount": 10,
+                    "cost": 330
+                },
+                {
+                    "name": "Hearthguard, Hesyr",
+                    "amount": 5,
+                    "cost": 165
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Hearthguard",
+                    "min": 4,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Hearthguard",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "EtaCarn Plasma Gun"
+                            },
+                            "options": [
+                                {
+                                    "name": "EtaCarn Plasma Gun"
+                                },
+                                {
+                                    "name": "Volkanite Disintegrator"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Concussion Gauntlet"
+                            },
+                            "options": [
+                                {
+                                    "name": "Concussion Gauntlet"
+                                },
+                                {
+                                    "name": "Plasma Blade Gauntlet"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Hearthguard",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "EtaCarn Plasma Gun"
+                            },
+                            "options": [
+                                {
+                                    "name": "EtaCarn Plasma Gun"
+                                },
+                                {
+                                    "name": "Volkanite Disintegrator"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Concussion Gauntlet"
+                            },
+                            "options": [
+                                {
+                                    "name": "Concussion Gauntlet"
+                                },
+                                {
+                                    "name": "Plasma Blade Gauntlet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hearthguard",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "EtaCarn Plasma Gun"
+                            },
+                            "options": [
+                                {
+                                    "name": "EtaCarn Plasma Gun"
+                                },
+                                {
+                                    "name": "Volkanite Disintegrator"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Concussion Gauntlet"
+                            },
+                            "options": [
+                                {
+                                    "name": "Concussion Gauntlet"
+                                },
+                                {
+                                    "name": "Plasma Blade Gauntlet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hearthguard",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "EtaCarn Plasma Gun"
+                            },
+                            "options": [
+                                {
+                                    "name": "EtaCarn Plasma Gun"
+                                },
+                                {
+                                    "name": "Volkanite Disintegrator"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Concussion Gauntlet"
+                            },
+                            "options": [
+                                {
+                                    "name": "Concussion Gauntlet"
+                                },
+                                {
+                                    "name": "Plasma Blade Gauntlet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hearthguard",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "EtaCarn Plasma Gun"
+                            },
+                            "options": [
+                                {
+                                    "name": "EtaCarn Plasma Gun"
+                                },
+                                {
+                                    "name": "Volkanite Disintegrator"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Concussion Gauntlet"
+                            },
+                            "options": [
+                                {
+                                    "name": "Concussion Gauntlet"
+                                },
+                                {
+                                    "name": "Plasma Blade Gauntlet"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hesyr",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "EtaCarn Plasma Gun"
+                            },
+                            "options": [
+                                {
+                                    "name": "EtaCarn Plasma Gun"
+                                },
+                                {
+                                    "name": "Volkanite Disintegrator"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Concussion Gauntlet"
+                            },
+                            "options": [
+                                {
+                                    "name": "Concussion Gauntlet"
+                                },
+                                {
+                                    "name": "Plasma Blade Gauntlet"
+                                },
+                                {
+                                    "name": "Concussion Hammer"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Weavefield Crest"
+                            },
+                            "options": [
+                                {
+                                    "name": "Weavefield Crest"
+                                },
+                                {
+                                    "name": "Teleport Crest"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.beserks",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Cthonian Beserks",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Cthonian Beserk",
+                    "amount": 10,
+                    "cost": 270
+                },
+                {
+                    "name": "Cthonian Beserk",
+                    "amount": 5,
+                    "cost": 135
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Cthonian Beserk",
+                    "min": 5,
+                    "max": 10
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Cthonian Beserk",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Heavy Plasma Axe"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Plasma Axe"
+                                },
+                                {
+                                    "name": "Concussion Maul"
+                                },
+                                {
+                                    "name": "Twin Concussion Gauntlet"
+                                },
+                                {
+                                    "name": "Mole Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Cthonian Beserk",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Heavy Plasma Axe"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Plasma Axe"
+                                },
+                                {
+                                    "name": "Concussion Maul"
+                                },
+                                {
+                                    "name": "Twin Concussion Gauntlet"
+                                },
+                                {
+                                    "name": "Mole Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cthonian Beserk",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Heavy Plasma Axe"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Plasma Axe"
+                                },
+                                {
+                                    "name": "Concussion Maul"
+                                },
+                                {
+                                    "name": "Twin Concussion Gauntlet"
+                                },
+                                {
+                                    "name": "Mole Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cthonian Beserk",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Heavy Plasma Axe"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Plasma Axe"
+                                },
+                                {
+                                    "name": "Concussion Maul"
+                                },
+                                {
+                                    "name": "Twin Concussion Gauntlet"
+                                },
+                                {
+                                    "name": "Mole Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cthonian Beserk",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Heavy Plasma Axe"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Plasma Axe"
+                                },
+                                {
+                                    "name": "Concussion Maul"
+                                },
+                                {
+                                    "name": "Twin Concussion Gauntlet"
+                                },
+                                {
+                                    "name": "Mole Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cthonian Beserk",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Heavy Plasma Axe"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Plasma Axe"
+                                },
+                                {
+                                    "name": "Concussion Maul"
+                                },
+                                {
+                                    "name": "Twin Concussion Gauntlet"
+                                },
+                                {
+                                    "name": "Mole Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.pioneer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Hernkyn Pioneers",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Hernkyn Pioneer",
+                    "amount": 6,
+                    "cost": 210
+                },
+                {
+                    "name": "Hernkyn Pioneer",
+                    "amount": 3,
+                    "cost": 105
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Hernkyn Pioneer",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Hernkyn Pioneer",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "HYLas Rotary Cannon"
+                                },
+                                {
+                                    "name": "Ion Beamer"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.commsArray",
+                        "w40k.10e.vtn.upg.scanner",
+                        "w40k.10e.vtn.upg.searchlight"
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Hernkyn Pioneer",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "HYLas Rotary Cannon"
+                                },
+                                {
+                                    "name": "Ion Beamer"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.commsArray",
+                        "w40k.10e.vtn.upg.scanner",
+                        "w40k.10e.vtn.upg.searchlight"
+                    ]
+                },
+                {
+                    "name": "Hernkyn Pioneer",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "HYLas Rotary Cannon"
+                                },
+                                {
+                                    "name": "Ion Beamer"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.commsArray",
+                        "w40k.10e.vtn.upg.scanner",
+                        "w40k.10e.vtn.upg.searchlight"
+                    ]
+                },
+                {
+                    "name": "Hernkyn Pioneer",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "HYLas Rotary Cannon"
+                                },
+                                {
+                                    "name": "Ion Beamer"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.vtn.upg.commsArray",
+                        "w40k.10e.vtn.upg.scanner",
+                        "w40k.10e.vtn.upg.searchlight"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.sagitaur",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Sagitaur",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Sagitaur",
+                    "points": 120,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "HYLas Beam Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "HYLas Beam Cannon"
+                                },
+                                {
+                                    "name": "L7 Missile Launcher, Sagitaur Missile Launcher"
+                                },
+                                {
+                                    "name": "MATR Autocannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.thunderkyn",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Brokhyr Thunderkyn",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Brokhyr Thunderkyn",
+                    "amount": 6,
+                    "cost": 190
+                },
+                {
+                    "name": "Brokhyr Thunderkyn",
+                    "amount": 3,
+                    "cost": 95
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Brokhyr Thunderkyn",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Brokhyr Thunderkyn",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Bolt Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Cannon"
+                                },
+                                {
+                                    "name": "Graviton Blast Cannon"
+                                },
+                                {
+                                    "name": "SP Conversion Beamer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Brokhyr Thunderkyn",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Bolt Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Cannon"
+                                },
+                                {
+                                    "name": "Graviton Blast Cannon"
+                                },
+                                {
+                                    "name": "SP Conversion Beamer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Brokhyr Thunderkyn",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Bolt Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Cannon"
+                                },
+                                {
+                                    "name": "Graviton Blast Cannon"
+                                },
+                                {
+                                    "name": "SP Conversion Beamer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Brokhyr Thunderkyn",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Bolt Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Cannon"
+                                },
+                                {
+                                    "name": "Graviton Blast Cannon"
+                                },
+                                {
+                                    "name": "SP Conversion Beamer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.vtn.unit.landFortress",
+            "type": "unit",
+            "rulesetId": "w40k.10e.vtn",
+            "name": "Hekaton Land Fortress",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Hekaton Land Fortress",
+                    "points": 245,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Twin Bolt Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Bolt Cannon"
+                                },
+                                {
+                                    "name": "Twin Ion Beamer"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Twin Bolt Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Bolt Cannon"
+                                },
+                                {
+                                    "name": "Twin Ion Beamer"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Cyclic Ion Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cyclic Ion Cannon"
+                                },
+                                {
+                                    "name": "SP Heavy Conversion Beamer"
+                                },
+                                {
+                                    "name": "Heavy Magna-rail Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Pan Spectral Scanner"
+                            },
+                            "options": [
+                                {
+                                    "name": "Pan Spectral Scanner"
+                                },
+                                {
+                                    "name": "Hekaton Warhead"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

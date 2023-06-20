@@ -1,0 +1,1581 @@
+{
+    "config": {
+        "id": "w40k.10e.dmns.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.dmns",
+        "name": "Legiones Daemonica",
+        "enabled": true,
+        "endpoint": "legionesDaemonica.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.dmns.dt.theShadowOfChaos",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.dmns",
+            "name": "The Shadow of Chaos",
+            "rule": ""
+        }
+    ],
+    "upgrades": [
+        {
+            "id": "w40k.10e.dmns.upg.kingOfBlades",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.dmns",
+            "upgradeType": "enhancement",
+            "name": "A'rgath, The King of Blades",
+            "rule": "",
+            "points": 20
+        },
+        {
+            "id": "w40k.10e.dmns.upg.everstave",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.dmns",
+            "upgradeType": "enhancement",
+            "name": "The Everstave",
+            "rule": "",
+            "points": 25
+        },
+        {
+            "id": "w40k.10e.dmns.upg.endlessGift",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.dmns",
+            "upgradeType": "enhancement",
+            "name": "The Endless Gift",
+            "rule": "",
+            "points": 30
+        },
+        {
+            "id": "w40k.10e.dmns.upg.soulstealer",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.dmns",
+            "upgradeType": "enhancement",
+            "name": "Soulstealer",
+            "rule": "",
+            "points": 15
+        },
+        {
+            "id": "w40k.10e.dmns.upg.instrument",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.dmns",
+            "upgradeType": "wargear",
+            "name": "Instrument of Chaos",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.dmns.upg.icon",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.dmns",
+            "upgradeType": "wargear",
+            "name": "Daemonic Icon",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.dmns.upg.khorne",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.dmns",
+            "upgradeType": "mark",
+            "name": "Khorne",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.dmns.upg.tzeentch",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.dmns",
+            "upgradeType": "mark",
+            "name": "Tzeentch",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.dmns.upg.nurgle",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.dmns",
+            "upgradeType": "mark",
+            "name": "Nurgle",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.dmns.upg.slaanesh",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.dmns",
+            "upgradeType": "mark",
+            "name": "Slaanesh",
+            "rule": ""
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.dmns.unit.skarbrand",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 1,
+            "name": "Skarbrand",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Skarbrand",
+                    "points": 365,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.bloodthirster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 1,
+            "name": "Bloodthirster",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Bloodthirster",
+                    "points": 300,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Great Axe of Khorne"
+                            },
+                            "options": [
+                                {
+                                    "name": "Great Axe of Khorne"
+                                },
+                                {
+                                    "name": "Axe of Khorne, Bloodflail"
+                                },
+                                {
+                                    "name": "Axe of Khorne, Lash of Khorne"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.kingOfBlades"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.skulltaker",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 1,
+            "name": "Skulltaker",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Skulltaker",
+                    "points": 95,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.bloodmaster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 1,
+            "name": "Bloodmaster",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Bloodmaster",
+                    "points": 85,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.kingOfBlades"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.skullmaster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 1,
+            "name": "Skullmaster",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Skullmaster",
+                    "points": 105,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.kingOfBlades"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.rendmasterOnBloodthrone",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 1,
+            "name": "Rendmaster on Bloodthrone",
+            "role": "MOUNTED",
+            "models": [
+                {
+                    "name": "Rendmaster on Bloodthrone",
+                    "points": 150,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.kingOfBlades"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.karanak",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 1,
+            "name": "Karanak",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Karanak",
+                    "points": 85,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.bloodletters",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 2,
+            "name": "Bloodletters",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Bloodletter, Bloodreaper",
+                    "amount": 10,
+                    "cost": 160
+                }
+            ],
+            "models": [
+                {
+                    "name": "Bloodletter"
+                },
+                {
+                    "name": "Bloodletter"
+                },
+                {
+                    "name": "Bloodletter"
+                },
+                {
+                    "name": "Bloodletter"
+                },
+                {
+                    "name": "Bloodletter"
+                },
+                {
+                    "name": "Bloodletter"
+                },
+                {
+                    "name": "Bloodletter"
+                },
+                {
+                    "name": "Bloodletter"
+                },
+                {
+                    "name": "Bloodletter"
+                },
+                {
+                    "name": "Bloodreaper"
+                }
+            ],
+            "possibleUpgrades": [
+                "w40k.10e.dmns.upg.instrument",
+                "w40k.10e.dmns.upg.icon"
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.bloodcrushers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 2,
+            "name": "Bloodcrushers",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Bloodcrusher, Bloodhunter",
+                    "amount": 6,
+                    "cost": 240
+                },
+                {
+                    "name": "Bloodcrusher, Bloodhunter",
+                    "amount": 3,
+                    "cost": 120
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Bloodcrusher",
+                    "min": 2,
+                    "max": 5
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Bloodcrusher"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Bloodcrusher"
+                },
+                {
+                    "name": "Bloodcrusher"
+                },
+                {
+                    "name": "Bloodhunter"
+                }
+            ],
+            "possibleUpgrades": [
+                "w40k.10e.dmns.upg.instrument",
+                "w40k.10e.dmns.upg.icon"
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.fleshhounds",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 2,
+            "name": "Flesh Hounds",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Flesh Hound, Gore Hound",
+                    "amount": 10,
+                    "cost": 140
+                },
+                {
+                    "name": "Flesh Hound, Gore Hound",
+                    "amount": 5,
+                    "cost": 70
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Flesh Hound",
+                    "min": 4,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Flesh Hound"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Flesh Hound"
+                },
+                {
+                    "name": "Flesh Hound"
+                },
+                {
+                    "name": "Flesh Hound"
+                },
+                {
+                    "name": "Flesh Hound"
+                },
+                {
+                    "name": "Gore Hound"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.skullcannon",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 2,
+            "name": "Skull Cannon",
+            "role": "MOUNTED",
+            "models": [
+                {
+                    "name": "Skull Cannon",
+                    "points": 115
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.skullaltar",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 2,
+            "name": "Skull Altar",
+            "role": "FORTIFICATION",
+            "models": [
+                {
+                    "name": "Skull Altar",
+                    "points": 105
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.kairos",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 3,
+            "name": "Kairos Fateweaver",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Kairos Fateweaver",
+                    "points": 285,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.lordOfChange",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 3,
+            "name": "Lord of Change",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Lord of Change",
+                    "points": 230,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Rod of Sorcery"
+                                },
+                                {
+                                    "name": "Baleful Sword"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.everstave"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.changeling",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 3,
+            "name": "The Changeling",
+            "role": "INFANTRY",
+            "models": [
+                {
+                    "name": "The Changeling",
+                    "points": 75,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.fateskimmer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 3,
+            "name": "Fateskimmer",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Fateskimmer",
+                    "points": 105,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.fluxmaster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 3,
+            "name": "Fluxmaster",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Fluxmaster",
+                    "points": 60,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.blueScribes",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 3,
+            "name": "The Blue Scribes",
+            "role": "MOUNTED",
+            "models": [
+                {
+                    "name": "The Blue Scribes",
+                    "points": 65,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.changecaster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 3,
+            "name": "Changecaster",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Changecaster",
+                    "points": 65,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.blueHorrors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 4,
+            "name": "Blue Horrors",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Blue Horror",
+                    "amount": 10,
+                    "cost": 125
+                }
+            ],
+            "models": [
+                {
+                    "name": "Blue Horror"
+                },
+                {
+                    "name": "Blue Horror"
+                },
+                {
+                    "name": "Blue Horror"
+                },
+                {
+                    "name": "Blue Horror"
+                },
+                {
+                    "name": "Blue Horror"
+                },
+                {
+                    "name": "Blue Horror"
+                },
+                {
+                    "name": "Blue Horror"
+                },
+                {
+                    "name": "Blue Horror"
+                },
+                {
+                    "name": "Blue Horror"
+                },
+                {
+                    "name": "Blue Horror"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.pinkHorrors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 4,
+            "name": "Pink Horrors",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Pink Horror",
+                    "amount": 10,
+                    "cost": 140
+                }
+            ],
+            "models": [
+                {
+                    "name": "Pink Horror"
+                },
+                {
+                    "name": "Pink Horror"
+                },
+                {
+                    "name": "Pink Horror"
+                },
+                {
+                    "name": "Pink Horror"
+                },
+                {
+                    "name": "Pink Horror"
+                },
+                {
+                    "name": "Pink Horror"
+                },
+                {
+                    "name": "Pink Horror"
+                },
+                {
+                    "name": "Pink Horror"
+                },
+                {
+                    "name": "Pink Horror"
+                },
+                {
+                    "name": "Pink Horror"
+                }
+            ],
+            "possibleUpgrades": [
+                "w40k.10e.dmns.upg.instrument",
+                "w40k.10e.dmns.upg.icon"
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.flamers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 4,
+            "name": "Flamers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Flamer, Pyrocaster",
+                    "amount": 6,
+                    "cost": 130
+                },
+                {
+                    "name": "Flamer, Pyrocaster",
+                    "amount": 3,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Flamer",
+                    "min": 2,
+                    "max": 5
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Flamer"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Flamer"
+                },
+                {
+                    "name": "Flamer"
+                },
+                {
+                    "name": "Pyrocaster"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.exaltedFlamer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 3,
+            "name": "Exalted Flamer",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Exalted Flamer",
+                    "points": 70
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.screamers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 4,
+            "name": "Screamers",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Screamer",
+                    "amount": 6,
+                    "cost": 180
+                },
+                {
+                    "name": "Screamer",
+                    "amount": 3,
+                    "cost": 90
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Screamer"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Screamer"
+                },
+                {
+                    "name": "Screamer"
+                },
+                {
+                    "name": "Screamer"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.burningChariot",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 4,
+            "name": "Burning Chariot",
+            "role": "MOUNTED",
+            "models": [
+                {
+                    "name": "Burning Chariot",
+                    "points": 135
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.rotigus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 5,
+            "name": "Rotigus",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Rotigus",
+                    "points": 285,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.greatUncleanOne",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 5,
+            "name": "Great Unclean One",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Great Unclean One",
+                    "points": 280,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Plagueflail"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plagueflail"
+                                },
+                                {
+                                    "name": "Bileblade"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Bilesword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bilesword"
+                                },
+                                {
+                                    "name": "Doomsday Bell"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.endlessGift"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.poxbringer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 5,
+            "name": "Poxbringer",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Poxbringer",
+                    "points": 75,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.endlessGift"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.spoilpoxScrivener",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 5,
+            "name": "Spoilpox Scrivener",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Spoilpox Scrivener",
+                    "points": 65,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.endlessGift"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.epidemius",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 5,
+            "name": "Epidemius",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Epidemius",
+                    "points": 85,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.sloppityBilepiper",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 5,
+            "name": "Sloppity Bilepiper",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Sloppity Bilepiper",
+                    "points": 55,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.endlessGift"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.horticulousSlimux",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 5,
+            "name": "Horticulous Slimux",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Horticulous Slimux",
+                    "points": 120,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.plaguebearers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 6,
+            "name": "Plaguebearers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Plaguebearer, Plagueridden",
+                    "amount": 10,
+                    "cost": 145
+                }
+            ],
+            "models": [
+                {
+                    "name": "Plaguebearer"
+                },
+                {
+                    "name": "Plaguebearer"
+                },
+                {
+                    "name": "Plaguebearer"
+                },
+                {
+                    "name": "Plaguebearer"
+                },
+                {
+                    "name": "Plaguebearer"
+                },
+                {
+                    "name": "Plaguebearer"
+                },
+                {
+                    "name": "Plaguebearer"
+                },
+                {
+                    "name": "Plaguebearer"
+                },
+                {
+                    "name": "Plaguebearer"
+                },
+                {
+                    "name": "Plagueridden"
+                }
+            ],
+            "possibleUpgrades": [
+                "w40k.10e.dmns.upg.instrument",
+                "w40k.10e.dmns.upg.icon"
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.nurglings",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 6,
+            "name": "Nurglings",
+            "role": "SWARM",
+            "points": [
+                {
+                    "name": "Nurgling Swarm",
+                    "amount": 9,
+                    "cost": 120
+                },
+                {
+                    "name": "Nurgling Swarm",
+                    "amount": 6,
+                    "cost": 80
+                },
+                {
+                    "name": "Nurgling Swarm",
+                    "amount": 3,
+                    "cost": 40
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Nurgling Swarm",
+                    "min": 3,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Nurgling Swarm"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Nurgling Swarm"
+                },
+                {
+                    "name": "Nurgling Swarm"
+                },
+                {
+                    "name": "Nurgling Swarm"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.beastsOfNurgle",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 6,
+            "name": "Beasts of Nurgle",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Beast of Nurgle",
+                    "amount": 2,
+                    "cost": 150
+                },
+                {
+                    "name": "Beast of Nurgle",
+                    "amount": 1,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Beast of Nurgle",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Beast of Nurgle"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Beast of Nurgle"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.plagueDrones",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 6,
+            "name": "Plague Drones",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Plague Drone, Plaguebringer",
+                    "amount": 6,
+                    "cost": 240
+                },
+                {
+                    "name": "Plague Drone, Plaguebringer",
+                    "amount": 3,
+                    "cost": 120
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Plague Drone",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Plague Drone"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Plague Drone"
+                },
+                {
+                    "name": "Plague Drone"
+                },
+                {
+                    "name": "Plaguebringer"
+                }
+            ],
+            "possibleUpgrades": [
+                "w40k.10e.dmns.upg.instrument",
+                "w40k.10e.dmns.upg.icon"
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.feculentGnarlmaw",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 6,
+            "name": "Feculent Gnarlmaw",
+            "role": "FORTIFICATION",
+            "models": [
+                {
+                    "name": "Feculent Gnarlmaw",
+                    "points": 100
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.shalaxi",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 7,
+            "name": "Shalaxi Helbane",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Shalaxi Helbane",
+                    "points": 400,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.keeperOfSecrets",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 7,
+            "name": "Keeper of Secrets",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Keeper of Secrets",
+                    "points": 330,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Living Whip"
+                                },
+                                {
+                                    "name": "Ritual Knife"
+                                },
+                                {
+                                    "name": "Shining Aegis"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.soulstealer"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.infernalEnrapturess",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 7,
+            "name": "Infernal Enrapturess",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Infernal Enrapturess",
+                    "points": 65,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.soulstealer"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.masqueOfSlaanesh",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 7,
+            "name": "The Masque of Slaanesh",
+            "role": "INFANTRY",
+            "models": [
+                {
+                    "name": "The Masque of Slaanesh",
+                    "points": 105,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.syllesske",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 7,
+            "name": "Syll'esske",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Syll'esske",
+                    "points": 140,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.contortedEpitome",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 7,
+            "name": "Contorted Epitome",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Contorted Epitome",
+                    "points": 85,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.soulstealer"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.tormentbringerOnExaltedSeekerChariot",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 7,
+            "name": "Tormentbringer on Exalted Seeker Chariot",
+            "role": "MOUNTED",
+            "models": [
+                {
+                    "name": "Tormentbringer on Exalted Seeker Chariot",
+                    "points": 160,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.soulstealer"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.tranceweaver",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 7,
+            "name": "Tranceweaver",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Tranceweaver",
+                    "points": 60,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.soulstealer"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.daemonettes",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 8,
+            "name": "Daemonettes",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Daemonette, Alluress",
+                    "amount": 10,
+                    "cost": 140
+                }
+            ],
+            "models": [
+                {
+                    "name": "Daemonette"
+                },
+                {
+                    "name": "Daemonette"
+                },
+                {
+                    "name": "Daemonette"
+                },
+                {
+                    "name": "Daemonette"
+                },
+                {
+                    "name": "Daemonette"
+                },
+                {
+                    "name": "Daemonette"
+                },
+                {
+                    "name": "Daemonette"
+                },
+                {
+                    "name": "Daemonette"
+                },
+                {
+                    "name": "Daemonette"
+                },
+                {
+                    "name": "Alluress"
+                }
+            ],
+            "possibleUpgrades": [
+                "w40k.10e.dmns.upg.instrument",
+                "w40k.10e.dmns.upg.icon"
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.fiends",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 8,
+            "name": "Fiends",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Fiend, Blissbringer",
+                    "amount": 6,
+                    "cost": 300
+                },
+                {
+                    "name": "Fiend, Blissbringer",
+                    "amount": 3,
+                    "cost": 150
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Fiend",
+                    "min": 4,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Fiend"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Fiend"
+                },
+                {
+                    "name": "Fiend"
+                },
+                {
+                    "name": "Blissbringer"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.seekers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 8,
+            "name": "Seekers",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Seeker, Heartseeker",
+                    "amount": 10,
+                    "cost": 190
+                },
+                {
+                    "name": "Seeker, Heartseeker",
+                    "amount": 5,
+                    "cost": 95
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Seeker",
+                    "min": 4,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Seeker"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Seeker"
+                },
+                {
+                    "name": "Seeker"
+                },
+                {
+                    "name": "Seeker"
+                },
+                {
+                    "name": "Seeker"
+                },
+                {
+                    "name": "Alluress"
+                }
+            ],
+            "possibleUpgrades": [
+                "w40k.10e.dmns.upg.instrument",
+                "w40k.10e.dmns.upg.icon"
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.hellflayer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 8,
+            "name": "Hellflayer",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Hellflayer",
+                    "amount": 2,
+                    "cost": 220
+                },
+                {
+                    "name": "Hellflayer",
+                    "amount": 1,
+                    "cost": 110
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Hellflayer",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Hellflayer"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Hellflayer"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.seekerChariot",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 8,
+            "name": "Seeker Chariot",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Seeker Chariot",
+                    "amount": 2,
+                    "cost": 150
+                },
+                {
+                    "name": "Seeker Chariot",
+                    "amount": 1,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Seeker Chariot",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Seeker Chariot"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Seeker Chariot"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.exaltedSeekerChariot",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 8,
+            "name": "Exalted Seeker Chariot",
+            "role": "MOUNTED",
+            "models": [
+                {
+                    "name": "Exalted Seeker Chariot",
+                    "points": 115
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.belakor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 9,
+            "name": "Be'lakor",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Be'lakor",
+                    "points": 325,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.soulGrinder",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 10,
+            "name": "Soul Grinder",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Soul Grinder",
+                    "points": 215,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Warpsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Warpsword"
+                                },
+                                {
+                                    "name": "Warpclaw"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.khorne",
+                        "w40k.10e.dmns.upg.tzeentch",
+                        "w40k.10e.dmns.upg.nurgle",
+                        "w40k.10e.dmns.upg.slaanesh"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.daemonPrince",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 10,
+            "name": "Daemon Prince",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Daemon Prince",
+                    "points": 215,
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.khorne",
+                        "w40k.10e.dmns.upg.tzeentch",
+                        "w40k.10e.dmns.upg.nurgle",
+                        "w40k.10e.dmns.upg.slaanesh"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dmns.unit.daemonPrinceWings",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dmns",
+            "order": 10,
+            "name": "Daemon Prince with Wings",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Daemon Prince with Wings",
+                    "points": 195,
+                    "possibleUpgrades": [
+                        "w40k.10e.dmns.upg.khorne",
+                        "w40k.10e.dmns.upg.tzeentch",
+                        "w40k.10e.dmns.upg.nurgle",
+                        "w40k.10e.dmns.upg.slaanesh"
+                    ]
+                }
+            ]
+        }
+    ]
+}

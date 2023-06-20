@@ -1,0 +1,1055 @@
+{
+    "config": {
+        "id": "w40k.10e.cst.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.cst",
+        "name": "Adeptus Custodes",
+        "enabled": true,
+        "endpoint": "custodes.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.cst.dt.cultOfMagic",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Shield Host",
+            "rule": ""
+        }
+    ],
+    "upgrades": [
+        {
+            "id": "w40k.10e.cst.upg.unstoppableDestroyer",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.cst",
+            "upgradeType": "enhancement",
+            "name": "Unstoppable Destroyer",
+            "rule": "",
+            "points": 25
+        },
+        {
+            "id": "w40k.10e.cst.upg.inspirationalExemplar",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.cst",
+            "upgradeType": "enhancement",
+            "name": "Inspirational Exemplar",
+            "rule": "",
+            "points": 10
+        },
+        {
+            "id": "w40k.10e.cst.upg.veiledBlade",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.cst",
+            "upgradeType": "enhancement",
+            "name": "Veiled Blade",
+            "rule": "",
+            "points": 25
+        },
+        {
+            "id": "w40k.10e.cst.upg.ceaselessHunter",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.cst",
+            "upgradeType": "enhancement",
+            "name": "Ceaseless Hunter",
+            "rule": "",
+            "points": 30
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.cst.unit.custodianGuard",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Custodian Guard",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Custodian Guard",
+                    "amount": 10,
+                    "cost": 450
+                },
+                {
+                    "name": "Custodian Guard",
+                    "amount": 9,
+                    "cost": 405
+                },
+                {
+                    "name": "Custodian Guard",
+                    "amount": 5,
+                    "cost": 225
+                },
+                {
+                    "name": "Custodian Guard",
+                    "amount": 4,
+                    "cost": 180
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Custodian Guard",
+                    "min": 4,
+                    "max": 10
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Custodian Guard",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Sentinel Blade, Praesidium Shield"
+                                },
+                                {
+                                    "name": "Vexilla, Misericordia"
+                                },
+                                {
+                                    "name": "Vexilla, Misericordia, Praesidium Shield"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Custodian Guard",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Sentinel Blade, Praesidium Shield"
+                                },
+                                {
+                                    "name": "Vexilla, Misericordia"
+                                },
+                                {
+                                    "name": "Vexilla, Misericordia, Praesidium Shield"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Custodian Guard",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Sentinel Blade, Praesidium Shield"
+                                },
+                                {
+                                    "name": "Vexilla, Misericordia"
+                                },
+                                {
+                                    "name": "Vexilla, Misericordia, Praesidium Shield"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Custodian Guard",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Sentinel Blade, Praesidium Shield"
+                                },
+                                {
+                                    "name": "Vexilla, Misericordia"
+                                },
+                                {
+                                    "name": "Vexilla, Misericordia, Praesidium Shield"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Custodian Guard",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Sentinel Blade, Praesidium Shield"
+                                },
+                                {
+                                    "name": "Vexilla, Misericordia"
+                                },
+                                {
+                                    "name": "Vexilla, Misericordia, Praesidium Shield"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.custodianWarden",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Custodian Warden",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Custodian Warden",
+                    "amount": 6,
+                    "cost": 300
+                },
+                {
+                    "name": "Custodian Warden",
+                    "amount": 3,
+                    "cost": 150
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Custodian Warden",
+                    "min": 3,
+                    "max": 6
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Custodian Warden",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Castellan Axe"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Vexilla"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Custodian Warden",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Castellan Axe"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Vexilla"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Custodian Warden",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Castellan Axe"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Vexilla"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Custodian Warden",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Castellan Axe"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Vexilla"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.allarusCustodians",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Allarus Custodians",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Allarus Custodian",
+                    "amount": 6,
+                    "cost": 390
+                },
+                {
+                    "name": "Allarus Custodian",
+                    "amount": 5,
+                    "cost": 325
+                },
+                {
+                    "name": "Allarus Custodian",
+                    "amount": 3,
+                    "cost": 195
+                },
+                {
+                    "name": "Allarus Custodian",
+                    "amount": 2,
+                    "cost": 130
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Allarus Custodian",
+                    "min": 2,
+                    "max": 6
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Allarus Custodian",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Castellan Axe"
+                                },
+                                {
+                                    "name": "Vexilla, Misericordia"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Allarus Custodian",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Castellan Axe"
+                                },
+                                {
+                                    "name": "Vexilla, Misericordia"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Allarus Custodian",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Castellan Axe"
+                                },
+                                {
+                                    "name": "Vexilla, Misericordia"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.vertusPraetors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Vertus Praetors",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Vertus Praetor",
+                    "amount": 6,
+                    "cost": 540
+                },
+                {
+                    "name": "Vertus Praetor",
+                    "amount": 5,
+                    "cost": 450
+                },
+                {
+                    "name": "Vertus Praetor",
+                    "amount": 3,
+                    "cost": 270
+                },
+                {
+                    "name": "Vertus Praetor",
+                    "amount": 2,
+                    "cost": 180
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Vertus Praetor",
+                    "min": 2,
+                    "max": 6
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Vertus Praetor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Salvo Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Salvo Launcher"
+                                },
+                                {
+                                    "name": "Vertus Hurricane Bolter"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Vertus Praetor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Salvo Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Salvo Launcher"
+                                },
+                                {
+                                    "name": "Vertus Hurricane Bolter"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Vertus Praetor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Salvo Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Salvo Launcher"
+                                },
+                                {
+                                    "name": "Vertus Hurricane Bolter"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.prosecutors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Prosecutors",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Prosecutor, Prosecutor Sister Superior",
+                    "amount": 10,
+                    "cost": 100
+                },
+                {
+                    "name": "Prosecutor, Prosecutor Sister Superior",
+                    "amount": 9,
+                    "cost": 90
+                },
+                {
+                    "name": "Prosecutor, Prosecutor Sister Superior",
+                    "amount": 5,
+                    "cost": 50
+                },
+                {
+                    "name": "Prosecutor, Prosecutor Sister Superior",
+                    "amount": 4,
+                    "cost": 40
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Prosecutor",
+                    "min": 3,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Prosecutor"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Prosecutor"
+                },
+                {
+                    "name": "Prosecutor"
+                },
+                {
+                    "name": "Prosecutor"
+                },
+                {
+                    "name": "Prosecutor Sister Superior"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.vigilator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Vigilators",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Vigilator, Vigilator Sister Superior",
+                    "amount": 10,
+                    "cost": 150
+                },
+                {
+                    "name": "Vigilator, Vigilator Sister Superior",
+                    "amount": 9,
+                    "cost": 135
+                },
+                {
+                    "name": "Vigilator, Vigilator Sister Superior",
+                    "amount": 5,
+                    "cost": 75
+                },
+                {
+                    "name": "Vigilator, Vigilator Sister Superior",
+                    "amount": 4,
+                    "cost": 60
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Vigilator",
+                    "min": 3,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Vigilator"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Vigilator"
+                },
+                {
+                    "name": "Vigilator"
+                },
+                {
+                    "name": "Vigilator"
+                },
+                {
+                    "name": "Vigilator Sister Superior"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.witchseekers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Witchseekers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Witchseeker, Witchseeker Sister Superior",
+                    "amount": 10,
+                    "cost": 150
+                },
+                {
+                    "name": "Witchseeker, Witchseeker Sister Superior",
+                    "amount": 9,
+                    "cost": 135
+                },
+                {
+                    "name": "Witchseeker, Witchseeker Sister Superior",
+                    "amount": 5,
+                    "cost": 75
+                },
+                {
+                    "name": "Witchseeker, Witchseeker Sister Superior",
+                    "amount": 4,
+                    "cost": 60
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Witchseeker",
+                    "min": 3,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Witchseeker"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Witchseeker"
+                },
+                {
+                    "name": "Witchseeker"
+                },
+                {
+                    "name": "Witchseeker"
+                },
+                {
+                    "name": "Witchseeker Sister Superior"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.shieldCaptain",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Shield-captain",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Shield-captain",
+                    "points": 120,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Castellan Axe"
+                                },
+                                {
+                                    "name": "Sentinel Blade"
+                                },
+                                {
+                                    "name": "Sentinel Blade, Praesidium Shield"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.cst.upg.unstoppableDestroyer",
+                        "w40k.10e.cst.upg.inspirationalExemplar",
+                        "w40k.10e.cst.upg.veiledBlade",
+                        "w40k.10e.cst.upg.ceaselessHunter"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.bladeChampion",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Blade Champion",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Blade Champion",
+                    "points": 100,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.cst.upg.unstoppableDestroyer",
+                        "w40k.10e.cst.upg.inspirationalExemplar",
+                        "w40k.10e.cst.upg.veiledBlade",
+                        "w40k.10e.cst.upg.ceaselessHunter"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.aleya",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Aleya",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Aleya",
+                    "points": 80,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.psykanaRhino",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Anathema Psykana Rhino",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Anathema Psykana Rhino",
+                    "points": 75,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Hunter-killer Missile"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.knightCentura",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Knight-centura",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Knight-centura",
+                    "points": 75,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Executioner Greatblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Executioner Greatblade"
+                                },
+                                {
+                                    "name": "Master-crafted Boltgun"
+                                },
+                                {
+                                    "name": "Witchseeker Flamer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.shieldCaptainTerminatorArmour",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Shield-captain in Allarus Terminator Armour",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Shield-captain in Allarus Terminator Armour",
+                    "points": 120,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Guardian Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Guardian Spear"
+                                },
+                                {
+                                    "name": "Castellan Axe"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.cst.upg.unstoppableDestroyer",
+                        "w40k.10e.cst.upg.inspirationalExemplar",
+                        "w40k.10e.cst.upg.veiledBlade",
+                        "w40k.10e.cst.upg.ceaselessHunter"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.shieldCaptainDawneagleJetbike",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Shield-captain on Dawneagle Jetbike",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Shield-captain on Dawneagle Jetbike",
+                    "points": 145,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Salvo Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Salvo Launcher"
+                                },
+                                {
+                                    "name": "Vertus Hurricane Bolter"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.cst.upg.unstoppableDestroyer",
+                        "w40k.10e.cst.upg.inspirationalExemplar",
+                        "w40k.10e.cst.upg.veiledBlade",
+                        "w40k.10e.cst.upg.ceaselessHunter"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.trajanValoris",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Trajan Valoris",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Trajan Valoris",
+                    "points": 145,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.cst.upg.unstoppableDestroyer",
+                        "w40k.10e.cst.upg.inspirationalExemplar",
+                        "w40k.10e.cst.upg.veiledBlade",
+                        "w40k.10e.cst.upg.ceaselessHunter"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.valerian",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Valerian",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Valerian",
+                    "points": 115,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.cst.upg.unstoppableDestroyer",
+                        "w40k.10e.cst.upg.inspirationalExemplar",
+                        "w40k.10e.cst.upg.veiledBlade",
+                        "w40k.10e.cst.upg.ceaselessHunter"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.venerableContemptorDreadnought",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Venerable Contemptor Dreadnought",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Venerable Contemptor Dreadnought",
+                    "points": 185,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Multi-melta"
+                            },
+                            "options": [
+                                {
+                                    "name": "Multi-melta"
+                                },
+                                {
+                                    "name": "Kheres-pattern Assault Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.cst.unit.venerableLandRaider",
+            "type": "unit",
+            "rulesetId": "w40k.10e.cst",
+            "name": "Venerable Land Raider",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Venerable Land Raider",
+                    "points": 260,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Hunter-killer Missile"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Storm Bolter"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

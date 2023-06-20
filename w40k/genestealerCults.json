@@ -1,0 +1,1598 @@
+{
+    "config": {
+        "id": "w40k.10e.gsc.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.gsc",
+        "name": "Genestealer Cults",
+        "enabled": true,
+        "endpoint": "genestealerCults.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.gsc.dt.cultOfMagic",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Ascension Day",
+            "rule": ""
+        }
+    ],
+    "upgrades": [
+        {
+            "id": "w40k.10e.gsc.upg.prowlingAgitant",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.gsc",
+            "upgradeType": "enhancement",
+            "name": "Prowling Agitant",
+            "rule": "",
+            "points": 15
+        },
+        {
+            "id": "w40k.10e.gsc.upg.inscrutbleCunning",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.gsc",
+            "upgradeType": "enhancement",
+            "name": "Inscrutable Cunning",
+            "rule": "",
+            "points": 30
+        },
+        {
+            "id": "w40k.10e.gsc.upg.meticulousPlanner",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.gsc",
+            "upgradeType": "enhancement",
+            "name": "Meticulous Planner",
+            "rule": "",
+            "points": 40
+        },
+        {
+            "id": "w40k.10e.gsc.upg.focusOfAdoration",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.gsc",
+            "upgradeType": "enhancement",
+            "name": "Focus of Adoration",
+            "rule": "",
+            "points": 10
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.gsc.unit.abberants",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Abberants",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Abberant, Abberant Hypermorph",
+                    "amount": 10,
+                    "cost": 330
+                },
+                {
+                    "name": "Abberant, Abberant Hypermorph",
+                    "amount": 5,
+                    "cost": 165
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Abberant",
+                    "min": 4,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Abberant"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Abberant"
+                },
+                {
+                    "name": "Abberant"
+                },
+                {
+                    "name": "Abberant"
+                },
+                {
+                    "name": "Abberant"
+                },
+                {
+                    "name": "Abberant Hypermorph",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Heavy Power Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Power Weapon"
+                                },
+                                {
+                                    "name": "Heavy Improvised Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.abominant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Abominant",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Abominant",
+                    "points": 75,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.gsc.upg.prowlingAgitant",
+                        "w40k.10e.gsc.upg.inscrutbleCunning",
+                        "w40k.10e.gsc.upg.meticulousPlanner",
+                        "w40k.10e.gsc.upg.focusOfAdoration"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.achillesRidgerunner",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Achilles Ridgerunner",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Achilles Ridgerunner",
+                    "amount": 2,
+                    "cost": 150
+                },
+                {
+                    "name": "Achilles Ridgerunner",
+                    "amount": 1,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Achilles Ridgerunner",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Achilles Ridgerunner",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Heavy Mining Laser"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Mining Laser"
+                                },
+                                {
+                                    "name": "Achilles Missile Launcher"
+                                },
+                                {
+                                    "name": "Heavy Mortar"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Flare Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Flare Launcher"
+                                },
+                                {
+                                    "name": "Spotter"
+                                },
+                                {
+                                    "name": "Survey Augur"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Achilles Ridgerunner",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Heavy Mining Laser"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Mining Laser"
+                                },
+                                {
+                                    "name": "Achilles Missile Launcher"
+                                },
+                                {
+                                    "name": "Heavy Mortar"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Flare Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Flare Launcher"
+                                },
+                                {
+                                    "name": "Spotter"
+                                },
+                                {
+                                    "name": "Survey Augur"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.acolyteHybrids",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Acolyte Hybrids",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Acolyte Hybrid, Acolyte Leader",
+                    "amount": 10,
+                    "cost": 150
+                },
+                {
+                    "name": "Acolyte Hybrid, Acolyte Leader",
+                    "amount": 5,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Acolyte Hybrid",
+                    "min": 4,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Acolyte Hybrid",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autopistol, Cult Claws and Knife"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Handflamer, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Cult Icon, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Demolition Charges, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Heavy Mining Tool"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Acolyte Hybrid",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autopistol, Cult Claws and Knife"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Handflamer, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Cult Icon, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Demolition Charges, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Heavy Mining Tool"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Acolyte Hybrid",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autopistol, Cult Claws and Knife"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Handflamer, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Cult Icon, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Demolition Charges, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Heavy Mining Tool"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Acolyte Hybrid",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autopistol, Cult Claws and Knife"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Handflamer, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Cult Icon, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Demolition Charges, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Heavy Mining Tool"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Acolyte Hybrid",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autopistol, Cult Claws and Knife"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Handflamer, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Cult Icon, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Demolition Charges, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Heavy Mining Tool"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Acolyte Leader",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autopistol, Cult Claws and Knife"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Handflamer, Cult Claws and Knife"
+                                },
+                                {
+                                    "name": "Leader's Cult Weapons"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.acolyteIconward",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Acolyte Iconward",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Acolyte Iconward",
+                    "points": 50,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.gsc.upg.prowlingAgitant",
+                        "w40k.10e.gsc.upg.inscrutbleCunning",
+                        "w40k.10e.gsc.upg.meticulousPlanner",
+                        "w40k.10e.gsc.upg.focusOfAdoration"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.atalanJackals",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Atalan Jackals",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Atalan Jackal, Atalan Wolfquad",
+                    "amount": 10,
+                    "cost": 160
+                },
+                {
+                    "name": "Atalan Jackal, Atalan Wolfquad",
+                    "amount": 5,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Atalan Jackal",
+                    "min": 4,
+                    "max": 8
+                },
+                {
+                    "type": "model",
+                    "name": "Atalan Wolfquad",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Atalan Jackal",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Atalan Power Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Atalan Small Arms"
+                            },
+                            "options": [
+                                {
+                                    "name": "Atalan Small Arms"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Atalan Wolfquad",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Atalan Incinerator"
+                                },
+                                {
+                                    "name": "Mining Laser"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Atalan Jackal",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Atalan Power Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Atalan Small Arms"
+                            },
+                            "options": [
+                                {
+                                    "name": "Atalan Small Arms"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Atalan Jackal",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Atalan Power Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Atalan Small Arms"
+                            },
+                            "options": [
+                                {
+                                    "name": "Atalan Small Arms"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Atalan Jackal",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Atalan Power Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Atalan Small Arms"
+                            },
+                            "options": [
+                                {
+                                    "name": "Atalan Small Arms"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Atalan Jackal",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Close Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Atalan Power Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Atalan Small Arms"
+                            },
+                            "options": [
+                                {
+                                    "name": "Atalan Small Arms"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Atalan Wolfquad",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Atalan Incinerator"
+                                },
+                                {
+                                    "name": "Mining Laser"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.biophagus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Biophagus",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Biophagus",
+                    "points": 50,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Alchemicus Familiar"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.gsc.upg.prowlingAgitant",
+                        "w40k.10e.gsc.upg.inscrutbleCunning",
+                        "w40k.10e.gsc.upg.meticulousPlanner",
+                        "w40k.10e.gsc.upg.focusOfAdoration"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.clamavus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Clamavus",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Clamavus",
+                    "points": 40,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.gsc.upg.prowlingAgitant",
+                        "w40k.10e.gsc.upg.inscrutbleCunning",
+                        "w40k.10e.gsc.upg.meticulousPlanner",
+                        "w40k.10e.gsc.upg.focusOfAdoration"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.goliathRockgrinder",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Goliath Rockgrinder",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Goliath Rockgrinder",
+                    "points": 155,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Heavy Mining Laser"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Mining Laser"
+                                },
+                                {
+                                    "name": "Clearance Incinerator"
+                                },
+                                {
+                                    "name": "Heavy Seismic Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.goliathTruck",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Goliath Truck",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Goliath Truck",
+                    "points": 110
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.hybridMetamorphs",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Hybrid Metamorphs",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Hybrid Metamorph, Metamorph Leader",
+                    "amount": 10,
+                    "cost": 160
+                },
+                {
+                    "name": "Hybrid Metamorph, Metamorph Leader",
+                    "amount": 5,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Hybrid Metamorph",
+                    "min": 4,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Hybrid Metamorph",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autopistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol"
+                                },
+                                {
+                                    "name": "Handflamer"
+                                },
+                                {
+                                    "name": "Cult Icon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Hybrid Metamorph",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autopistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol"
+                                },
+                                {
+                                    "name": "Handflamer"
+                                },
+                                {
+                                    "name": "Cult Icon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hybrid Metamorph",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autopistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol"
+                                },
+                                {
+                                    "name": "Handflamer"
+                                },
+                                {
+                                    "name": "Cult Icon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hybrid Metamorph",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autopistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol"
+                                },
+                                {
+                                    "name": "Handflamer"
+                                },
+                                {
+                                    "name": "Cult Icon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hybrid Metamorph",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autopistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol"
+                                },
+                                {
+                                    "name": "Handflamer"
+                                },
+                                {
+                                    "name": "Cult Icon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name":  "Metamorph Leader",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Autopistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Autopistol"
+                                },
+                                {
+                                    "name": "Handflamer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.jackalAlphus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Jackal Alphus",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Jackal Alphus",
+                    "points": 60,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.gsc.upg.prowlingAgitant",
+                        "w40k.10e.gsc.upg.inscrutbleCunning",
+                        "w40k.10e.gsc.upg.meticulousPlanner",
+                        "w40k.10e.gsc.upg.focusOfAdoration"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.kelermorph",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Kelermorph",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Kelermorph",
+                    "points": 55,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.gsc.upg.prowlingAgitant",
+                        "w40k.10e.gsc.upg.inscrutbleCunning",
+                        "w40k.10e.gsc.upg.meticulousPlanner",
+                        "w40k.10e.gsc.upg.focusOfAdoration"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.locus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Locus",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Locus",
+                    "points": 40,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.gsc.upg.prowlingAgitant",
+                        "w40k.10e.gsc.upg.inscrutbleCunning",
+                        "w40k.10e.gsc.upg.meticulousPlanner",
+                        "w40k.10e.gsc.upg.focusOfAdoration"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.magus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Magus",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Magus",
+                    "points": 50,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.gsc.upg.prowlingAgitant",
+                        "w40k.10e.gsc.upg.inscrutbleCunning",
+                        "w40k.10e.gsc.upg.meticulousPlanner",
+                        "w40k.10e.gsc.upg.focusOfAdoration"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.neophyteHybrids",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Neophyte Hybrids",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Neophyte Hybrid, Neophyte Leader",
+                    "amount": 10,
+                    "cost": 160
+                },
+                {
+                    "name": "Neophyte Hybrid, Neophyte Leader",
+                    "amount": 5,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Neophyte Hybrid",
+                    "min": 9,
+                    "max": 19
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Neophyte Hybrid",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hybrid Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hybrid Firearm"
+                                },
+                                {
+                                    "name": "Hybrid Firearm, Cult Icon"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Mining Laser"
+                                },
+                                {
+                                    "name": "Seismic Cannon"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Webber"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Neophyte Hybrid",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hybrid Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hybrid Firearm"
+                                },
+                                {
+                                    "name": "Hybrid Firearm, Cult Icon"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Mining Laser"
+                                },
+                                {
+                                    "name": "Seismic Cannon"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Webber"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Neophyte Hybrid",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hybrid Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hybrid Firearm"
+                                },
+                                {
+                                    "name": "Hybrid Firearm, Cult Icon"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Mining Laser"
+                                },
+                                {
+                                    "name": "Seismic Cannon"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Webber"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Neophyte Hybrid",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hybrid Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hybrid Firearm"
+                                },
+                                {
+                                    "name": "Hybrid Firearm, Cult Icon"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Mining Laser"
+                                },
+                                {
+                                    "name": "Seismic Cannon"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Webber"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Neophyte Hybrid",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hybrid Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hybrid Firearm"
+                                },
+                                {
+                                    "name": "Hybrid Firearm, Cult Icon"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Mining Laser"
+                                },
+                                {
+                                    "name": "Seismic Cannon"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Webber"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Neophyte Hybrid",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hybrid Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hybrid Firearm"
+                                },
+                                {
+                                    "name": "Hybrid Firearm, Cult Icon"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Mining Laser"
+                                },
+                                {
+                                    "name": "Seismic Cannon"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Webber"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Neophyte Hybrid",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hybrid Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hybrid Firearm"
+                                },
+                                {
+                                    "name": "Hybrid Firearm, Cult Icon"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Mining Laser"
+                                },
+                                {
+                                    "name": "Seismic Cannon"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Webber"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Neophyte Hybrid",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hybrid Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hybrid Firearm"
+                                },
+                                {
+                                    "name": "Hybrid Firearm, Cult Icon"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Mining Laser"
+                                },
+                                {
+                                    "name": "Seismic Cannon"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Webber"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Neophyte Hybrid",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hybrid Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hybrid Firearm"
+                                },
+                                {
+                                    "name": "Hybrid Firearm, Cult Icon"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Mining Laser"
+                                },
+                                {
+                                    "name": "Seismic Cannon"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Webber"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Neophyte Hybrid",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hybrid Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hybrid Firearm"
+                                },
+                                {
+                                    "name": "Hybrid Firearm, Cult Icon"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Mining Laser"
+                                },
+                                {
+                                    "name": "Seismic Cannon"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Webber"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Neophyte Leader",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hybrid Firearm, Close Combat Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hybrid Firearm, Close Combat Weapon"
+                                },
+                                {
+                                    "name": "Leader Pistol, Chainsword"
+                                },
+                                {
+                                    "name": "Leader Pistol, Power Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.nexos",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Nexos",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Nexos",
+                    "points": 50,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.gsc.upg.prowlingAgitant",
+                        "w40k.10e.gsc.upg.inscrutbleCunning",
+                        "w40k.10e.gsc.upg.meticulousPlanner",
+                        "w40k.10e.gsc.upg.focusOfAdoration"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.patriarch",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Patriarch",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Patriarch",
+                    "points": 85,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.gsc.upg.prowlingAgitant",
+                        "w40k.10e.gsc.upg.inscrutbleCunning",
+                        "w40k.10e.gsc.upg.meticulousPlanner",
+                        "w40k.10e.gsc.upg.focusOfAdoration"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.primus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Primus",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Primus",
+                    "points": 70,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.gsc.upg.prowlingAgitant",
+                        "w40k.10e.gsc.upg.inscrutbleCunning",
+                        "w40k.10e.gsc.upg.meticulousPlanner",
+                        "w40k.10e.gsc.upg.focusOfAdoration"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.purestrainGenestealers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Purestrain Genestealers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Purestrain Genestealer",
+                    "amount": 10,
+                    "cost": 180
+                },
+                {
+                    "name": "Purestrain Genestealer",
+                    "amount": 5,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Purestrain Genestealer",
+                    "min": 4,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Purestrain Genestealer"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Purestrain Genestealer"
+                },
+                {
+                    "name": "Purestrain Genestealer"
+                },
+                {
+                    "name": "Purestrain Genestealer"
+                },
+                {
+                    "name": "Purestrain Genestealer"
+                },
+                {
+                    "name": "Purestrain Genestealer"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.reductusSaboteur",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Reductus Saboteur",
+            "role": "INFANTRY",
+            "models": [
+                {
+                    "name": "Reductus Saboteur",
+                    "points": 55,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.gsc.upg.prowlingAgitant",
+                        "w40k.10e.gsc.upg.inscrutbleCunning",
+                        "w40k.10e.gsc.upg.meticulousPlanner",
+                        "w40k.10e.gsc.upg.focusOfAdoration"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.gsc.unit.sanctus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.gsc",
+            "name": "Sanctus",
+            "role": "INFANTRY",
+            "models": [
+                {
+                    "name": "Sanctus",
+                    "points": 50,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Sanctus Bio-dagger"
+                            },
+                            "options": [
+                                {
+                                    "name": "Sanctus Bio-dagger"
+                                },
+                                {
+                                    "name": "Cult Sniper Rifle, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.gsc.upg.prowlingAgitant",
+                        "w40k.10e.gsc.upg.inscrutbleCunning",
+                        "w40k.10e.gsc.upg.meticulousPlanner",
+                        "w40k.10e.gsc.upg.focusOfAdoration"
+                    ]
+                }
+            ]
+        }
+    ]
+}

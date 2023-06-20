@@ -1,0 +1,112 @@
+{
+    "gameSystems": [
+        {
+            "id": "w40k.10e",
+            "name": "Warhammer 40,000: 10th Edition",
+            "enabled": true,
+            "configs": [
+                {
+                    "id": "w40k.10e.ck.config",
+                    "type": "config",
+                    "rulesetId": "w40k.10e.ck",
+                    "name": "Chaos Knights",
+                    "enabled": true,
+                    "endpoint": "chaosKnights.json"
+                },
+                {
+                    "id": "w40k.10e.ik.config",
+                    "type": "config",
+                    "rulesetId": "w40k.10e.ik",
+                    "name": "Imperial Knights",
+                    "enabled": true,
+                    "endpoint": "imperialKnights.json"
+                },
+                {
+                    "id": "w40k.10e.we.config",
+                    "type": "config",
+                    "rulesetId": "w40k.10e.we",
+                    "name": "World Eaters",
+                    "enabled": true,
+                    "endpoint": "worldEaters.json"
+                },
+                {
+                    "id": "w40k.10e.dmns.config",
+                    "type": "config",
+                    "rulesetId": "w40k.10e.dmns",
+                    "name": "Legiones Daemonica",
+                    "enabled": true,
+                    "endpoint": "legionesDaemonica.json"
+                },
+                {
+                    "id": "w40k.10e.tsons.config",
+                    "type": "config",
+                    "rulesetId": "w40k.10e.tsons",
+                    "name": "Thousand Sons",
+                    "enabled": true,
+                    "endpoint": "thousandSons.json"
+                },
+                {
+                    "id": "w40k.10e.vtn.config",
+                    "type": "config",
+                    "rulesetId": "w40k.10e.vtn",
+                    "name": "Leagues of Votann",
+                    "enabled": true,
+                    "endpoint": "votann.json"
+                },
+                {
+                    "id": "w40k.10e.cst.config",
+                    "type": "config",
+                    "rulesetId": "w40k.10e.cst",
+                    "name": "Adeptus Custodes",
+                    "enabled": true,
+                    "endpoint": "custodes.json"
+                },
+                {
+                    "id": "w40k.10e.gsc.config",
+                    "type": "config",
+                    "rulesetId": "w40k.10e.gsc",
+                    "name": "Genestealer Cults",
+                    "enabled": true,
+                    "endpoint": "genestealerCults.json"
+                },
+                {
+                    "id": "w40k.10e.gk.config",
+                    "type": "config",
+                    "rulesetId": "w40k.10e.gk",
+                    "name": "Grey Knights",
+                    "enabled": true,
+                    "endpoint": "greyKnights.json"
+                },
+                {
+                    "id": "w40k.10e.dg.config",
+                    "type": "config",
+                    "rulesetId": "w40k.10e.dg",
+                    "name": "Death Guard",
+                    "enabled": true,
+                    "endpoint": "deathGuard.json"
+                },
+                {
+                    "id": "w40k.10e.csm.config",
+                    "type": "config",
+                    "rulesetId": "w40k.10e.csm",
+                    "name": "Traitoris Astartes",
+                    "enabled": false,
+                    "endpoint": "traitorisAstartes.json"
+                },
+                {
+                    "id": "w40k.10e.sm.config",
+                    "type": "config",
+                    "rulesetId": "w40k.10e.sm",
+                    "name": "Space Marines",
+                    "enabled": false,
+                    "endpoint": "spaceMarines.json"
+                }
+            ]
+        },
+        {
+            "id": "wAoS.4e",
+            "name": "Warhammer Age of Sigmar: 3rd Edition",
+            "enabled": false
+        }
+    ]
+}

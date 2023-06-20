@@ -1,0 +1,1894 @@
+{
+    "config": {
+        "id": "w40k.10e.tsons.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.tsons",
+        "name": "Thousand Sons",
+        "enabled": true,
+        "endpoint": "thousandSons.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.tsons.dt.cultOfMagic",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Cult of Magic",
+            "rule": ""
+        }
+    ],
+    "upgrades": [
+        {
+            "id": "w40k.10e.tsons.upg.lordForbiddenLore",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.tsons",
+            "upgradeType": "enhancement",
+            "name": "Lord of Forbidden Lore",
+            "rule": "",
+            "points": 25
+        },
+        {
+            "id": "w40k.10e.tsons.upg.athenaeanScrolls",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.tsons",
+            "upgradeType": "enhancement",
+            "name": "Athenaean Scrolls",
+            "rule": "",
+            "points": 20
+        },
+        {
+            "id": "w40k.10e.tsons.upg.umbraleficCrystal",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.tsons",
+            "upgradeType": "enhancement",
+            "name": "Umbralefic Crystal",
+            "rule": "",
+            "points": 20
+        },
+        {
+            "id": "w40k.10e.tsons.upg.arcaneVortex",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.tsons",
+            "upgradeType": "enhancement",
+            "name": "Arcane Vortex",
+            "rule": "",
+            "points": 15
+        },
+        {
+            "id": "w40k.10e.tsons.upg.icon",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.tsons",
+            "upgradeType": "wargear",
+            "name": "Icon of Flame",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.tsons.upg.brayhorn",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.tsons",
+            "upgradeType": "wargear",
+            "name": "Brayhorn",
+            "rule": ""
+        },
+        {
+            "id": "w40k.10e.tsons.upg.herdBanner",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.tsons",
+            "upgradeType": "wargear",
+            "name": "Herd Banner",
+            "rule": ""
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.tsons.unit.ahriman",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Ahriman",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Ahriman",
+                    "points": 110,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.ahrimanDisc",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Ahriman on Disc",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Ahriman",
+                    "points": 115,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.landRaider",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Land Raider",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Land Raider",
+                    "points": 250,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Inferno Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.annihilator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Predator Annihilator",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Predator Annihilator",
+                    "points": 120,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "2 Heavy Bolters"
+                                },
+                                {
+                                    "name": "2 Lascannons"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "",
+                                "points": 0
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Inferno Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.destructor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Predator Destructor",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Predator Destructor",
+                    "points": 125,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "2 Heavy Bolters"
+                                },
+                                {
+                                    "name": "2 Lascannons"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Inferno Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.rhino",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Rhino",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Rhino",
+                    "points": 75,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Inferno Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.spawn",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Chaos Spawn",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Chaos Spawn",
+                    "amount": 2,
+                    "cost": 65
+                }
+            ],
+            "models": [
+                {
+                    "name": "Chaos Spawn"
+                },
+                {
+                    "name": "Chaos Spawn"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.vindicator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Vindicator",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Vindicator",
+                    "points": 200,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Inferno Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.defiler",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Defiler",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Defiler",
+                    "points": 200,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Twin Heavy Flamer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Heavy Flamer"
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                },
+                                {
+                                    "name": "Defiler Scourge"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Reaper Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Twin Inferno Heavy Bolter"
+                                },
+                                {
+                                    "name": "Twin Lascannon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Inferno Combi-weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.exaltedSorcerer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Exalted Sorcerer",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Exalted Sorcerer",
+                    "points": 90,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Inferno Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Warpflame Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prosperine Khopesh"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.tsons.upg.lordForbiddenLore",
+                        "w40k.10e.tsons.upg.athenaeanScrolls",
+                        "w40k.10e.tsons.upg.umbraleficCrystal",
+                        "w40k.10e.tsons.upg.arcaneVortex"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.exaltedSorcererDisc",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Exalted Sorcerer on Disc",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Exalted Sorcerer on Disc",
+                    "points": 105,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Inferno Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Warpflame Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Prosperine Khopesh"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.tsons.upg.lordForbiddenLore",
+                        "w40k.10e.tsons.upg.athenaeanScrolls",
+                        "w40k.10e.tsons.upg.umbraleficCrystal",
+                        "w40k.10e.tsons.upg.arcaneVortex"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.forgefiend",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Forgefiend",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Forgefiend",
+                    "points": 135,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "2 Hades Autocannons"
+                            },
+                            "options": [
+                                {
+                                    "name": "2 Hades Autocannons"
+                                },
+                                {
+                                    "name": "2 Ectoplasma Cannons"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Forgefiend Jaws"
+                            },
+                            "options": [
+                                {
+                                    "name": "Forgefiend Jaws"
+                                },
+                                {
+                                    "name": "Ectoplasma Cannon, Forgefiend Claws"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.helbrute",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Helbrute",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Helbrute",
+                    "points": 145,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Multi-melta"
+                            },
+                            "options": [
+                                {
+                                    "name": "Multi-melta"
+                                },
+                                {
+                                    "name": "Helbrute Plasma Cannon"
+                                },
+                                {
+                                    "name": "Twin Autocannon"
+                                },
+                                {
+                                    "name": "Twin Inferno Heavy Bolter"
+                                },
+                                {
+                                    "name": "Twin Lascannon"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Heavy Flamer"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Missile Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Heavy Flamer"
+                                },
+                                {
+                                    "name": "Helbrute Hammer"
+                                },
+                                {
+                                    "name": "Power Scourge"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.heldrake",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Heldrake",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Heldrake",
+                    "points": 195,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hades Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hades Autocannon"
+                                },
+                                {
+                                    "name": "Baleflamer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.infernalMaster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Infernal Master",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Infernal Master",
+                    "points": 75,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.tsons.upg.lordForbiddenLore",
+                        "w40k.10e.tsons.upg.athenaeanScrolls",
+                        "w40k.10e.tsons.upg.umbraleficCrystal",
+                        "w40k.10e.tsons.upg.arcaneVortex"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.magnus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Magnus the Red",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Magnus the Red",
+                    "points": 410,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.maulerfiend",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Maulerfiend",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Maulerfiend",
+                    "points": 140,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Lasher Tendrils"
+                            },
+                            "options": [
+                                {
+                                    "name": "Lasher Tendrils"
+                                },
+                                {
+                                    "name": "2 Magma Cutters"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.vortexBeast",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Mutalith Vortex Beast",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Mutalith Vortex Beast",
+                    "points": 145
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.rubrics",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Rubric Marines",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Rubric Marine, Aspiring Sorcerer",
+                    "amount": 10,
+                    "cost": 190
+                },
+                {
+                    "name": "Rubric Marine, Aspiring Sorcerer",
+                    "amount": 5,
+                    "cost": 95
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Rubric Marine",
+                    "min": 4,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Rubric Marine",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Inferno Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Boltgun"
+                                },
+                                {
+                                    "name": "Warpflamer"
+                                },
+                                {
+                                    "name": "Soulreaper Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Rubric Marine",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Inferno Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Boltgun"
+                                },
+                                {
+                                    "name": "Warpflamer"
+                                },
+                                {
+                                    "name": "Soulreaper Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Rubric Marine",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Inferno Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Boltgun"
+                                },
+                                {
+                                    "name": "Warpflamer"
+                                },
+                                {
+                                    "name": "Soulreaper Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Rubric Marine",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Inferno Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Boltgun"
+                                },
+                                {
+                                    "name": "Warpflamer"
+                                },
+                                {
+                                    "name": "Soulreaper Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Rubric Marine",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Inferno Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Boltgun"
+                                },
+                                {
+                                    "name": "Warpflamer"
+                                },
+                                {
+                                    "name": "Soulreaper Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Aspiring Sorcerer",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Inferno Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Warpflame Pistol"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "possibleUpgrades": [
+                "w40k.10e.tsons.upg.icon"
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.scarabs",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Scarab Occult Terminators",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Scarab Occult Terminator, Scarab Occult Sorcerer",
+                    "amount": 10,
+                    "cost": 410
+                },
+                {
+                    "name": "Scarab Occult Terminator, Scarab Occult Sorcerer",
+                    "amount": 5,
+                    "cost": 205
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Scarab Occult Terminator",
+                    "min": 4,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Scarab Occult Terminator",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Inferno Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Heavy Warpflamer"
+                                },
+                                {
+                                    "name": "Soulreaper Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Hellfyre Missile Rack"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Scarab Occult Terminator",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Inferno Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Heavy Warpflamer"
+                                },
+                                {
+                                    "name": "Soulreaper Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Hellfyre Missile Rack"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Scarab Occult Terminator",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Inferno Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Heavy Warpflamer"
+                                },
+                                {
+                                    "name": "Soulreaper Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Hellfyre Missile Rack"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Scarab Occult Terminator",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Inferno Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Heavy Warpflamer"
+                                },
+                                {
+                                    "name": "Soulreaper Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Hellfyre Missile Rack"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Scarab Occult Terminator",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Inferno Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Heavy Warpflamer"
+                                },
+                                {
+                                    "name": "Soulreaper Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Hellfyre Missile Rack"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Scarab Occult Sorcerer",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Inferno Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Prosperine Khopesh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.sorcerer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Sorcerer",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Sorcerer",
+                    "points": 85,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Inferno Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Warpflame Pistol"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.tsons.upg.lordForbiddenLore",
+                        "w40k.10e.tsons.upg.athenaeanScrolls",
+                        "w40k.10e.tsons.upg.umbraleficCrystal",
+                        "w40k.10e.tsons.upg.arcaneVortex"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.terminatorSorcerer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Sorcerer in Terminator Armour",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Sorcerer in Terminator Armour",
+                    "points": 105,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Inferno Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Inferno Combi-bolter"
+                                },
+                                {
+                                    "name": "Inferno Combi-weapon"
+                                },
+                                {
+                                    "name": "Prosperine Khopesh"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.tsons.upg.lordForbiddenLore",
+                        "w40k.10e.tsons.upg.athenaeanScrolls",
+                        "w40k.10e.tsons.upg.umbraleficCrystal",
+                        "w40k.10e.tsons.upg.arcaneVortex"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.cultists",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Cultists",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Cultist, Cultist Champion",
+                    "amount": 20,
+                    "cost": 130
+                },
+                {
+                    "name": "Cultist, Cultist Champion",
+                    "amount": 10,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Cultist",
+                    "min": 9,
+                    "max": 19
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist Champion"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.daemonPrince",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Daemon Prince",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Daemon Prince",
+                    "points": 210,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.tsons.upg.lordForbiddenLore",
+                        "w40k.10e.tsons.upg.athenaeanScrolls",
+                        "w40k.10e.tsons.upg.umbraleficCrystal",
+                        "w40k.10e.tsons.upg.arcaneVortex"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.daemonPrinceWings",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Daemon Prince with Wings",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Daemon Prince",
+                    "points": 190,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.tsons.upg.lordForbiddenLore",
+                        "w40k.10e.tsons.upg.athenaeanScrolls",
+                        "w40k.10e.tsons.upg.umbraleficCrystal",
+                        "w40k.10e.tsons.upg.arcaneVortex"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.tzaangorEnlightened",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Tzaangor Enlightened",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Tzaangor Enlightened, Aviarch",
+                    "amount": 6,
+                    "cost": 90
+                },
+                {
+                    "name": "Tzaangor Enlightened, Aviarch",
+                    "amount": 3,
+                    "cost": 45
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Tzaangor Enlightened",
+                    "min": 2,
+                    "max": 5
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Tzaangor Enlightened",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Divining Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Divining Spear"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                },
+                                {
+                                    "name": "Fatecaster Greatbow, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Tzaangor Enlightened",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Divining Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Divining Spear"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                },
+                                {
+                                    "name": "Fatecaster Greatbow, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tzaangor Enlightened",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Divining Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Divining Spear"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                },
+                                {
+                                    "name": "Fatecaster Greatbow, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Aviarch",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Divining Spear"
+                            },
+                            "options": [
+                                {
+                                    "name": "Divining Spear"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                },
+                                {
+                                    "name": "Fatecaster Greatbow, Close Combat Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.tzaangorShaman",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Tzaangor Shaman",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Tzaangor Shaman",
+                    "points": 60,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.tsons.upg.lordForbiddenLore",
+                        "w40k.10e.tsons.upg.athenaeanScrolls",
+                        "w40k.10e.tsons.upg.umbraleficCrystal",
+                        "w40k.10e.tsons.upg.arcaneVortex"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.tsons.unit.tzaangors",
+            "type": "unit",
+            "rulesetId": "w40k.10e.tsons",
+            "name": "Tzaangors",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Tzaangor, Twistbray",
+                    "amount": 20,
+                    "cost": 130
+                },
+                {
+                    "name": "Tzaangor, Twistbray",
+                    "amount": 10,
+                    "cost": 65
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Tzaangor",
+                    "min": 9,
+                    "max": 19
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Tzaangor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Tzaangor Blades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Tzaangor Blades"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Tzaangor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Tzaangor Blades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Tzaangor Blades"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tzaangor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Tzaangor Blades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Tzaangor Blades"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tzaangor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Tzaangor Blades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Tzaangor Blades"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tzaangor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Tzaangor Blades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Tzaangor Blades"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tzaangor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Tzaangor Blades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Tzaangor Blades"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tzaangor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Tzaangor Blades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Tzaangor Blades"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tzaangor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Tzaangor Blades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Tzaangor Blades"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tzaangor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Tzaangor Blades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Tzaangor Blades"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tzaangor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Tzaangor Blades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Tzaangor Blades"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Twistbray",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Tzaangor Blades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Tzaangor Blades"
+                                },
+                                {
+                                    "name": "Autopistol, Chainsword"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "possibleUpgrades": [
+                "w40k.10e.tsons.upg.brayhorn",
+                "w40k.10e.tsons.upg.herdBanner"
+            ]
+        }
+    ]
+}

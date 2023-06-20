@@ -1,0 +1,619 @@
+{
+    "config": {
+        "id": "w40k.10e.ik.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.ik",
+        "name": "Imperial Knights",
+        "enabled": true,
+        "endpoint": "imperialKnights.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.ik.dt.lance",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Noble Lance",
+            "rule": ""
+        }
+    ],
+    "upgrades": [
+        {
+            "id": "w40k.10e.ik.upg.reveredKnight",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.ik",
+            "upgradeType": "enhancement",
+            "name": "Revered Knight (Aura)",
+            "rule": "",
+            "points": 20
+        },
+        {
+            "id": "w40k.10e.ik.upg.mysteriousGuardian",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.ik",
+            "upgradeType": "enhancement",
+            "name": "Mysterious Guardian",
+            "rule": "",
+            "points": 35
+        },
+        {
+            "id": "w40k.10e.ik.upg.mythicHero",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.ik",
+            "upgradeType": "enhancement",
+            "name": "Mythic Hero",
+            "rule": "",
+            "points": 25
+        },
+        {
+            "id": "w40k.10e.ik.upg.banner",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.ik",
+            "upgradeType": "enhancement",
+            "name": "Banner of Macharius Triumphant",
+            "rule": "",
+            "points": 30
+        },
+        {
+            "id": "w40k.10e.ik.upg.unyieldingParagon",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.ik",
+            "upgradeType": "enhancement",
+            "name": "Unyielding Paragon",
+            "rule": "",
+            "points": 40
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.ik.unit.helverin",
+            "type": "unit",
+            "order": 2,
+            "rulesetId": "w40k.10e.ik",
+            "name": "Armiger Helverin",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Armiger Helverin",
+                    "points": 145,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Questoris Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Questoris Heavy Stubber"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.warglaive",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "order": 2,
+            "name": "Armiger Warglaive",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Armiger Warglaive",
+                    "points": 140,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Questoris Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Questoris Heavy Stubber"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.paladin",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "order": 1,
+            "name": "Knight Paladin",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Knight Paladin",
+                    "points": 390,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Chainsword"
+                                },
+                                {
+                                    "name": "Thunderstrike Gauntlet"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Meltagun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Questoris Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icarus Autocannons"
+                                },
+                                {
+                                    "name": "Ironstorm Missile Pod"
+                                },
+                                {
+                                    "name": "Stormspear Rocket Pod"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.ik.upg.reveredKnight",
+                        "w40k.10e.ik.upg.mysteriousGuardian",
+                        "w40k.10e.ik.upg.mythicHero",
+                        "w40k.10e.ik.upg.banner",
+                        "w40k.10e.ik.upg.unyieldingParagon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.errant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "order": 1,
+            "name": "Knight Errant",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Knight Errant",
+                    "points": 375,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Chainsword"
+                                },
+                                {
+                                    "name": "Thunderstrike Gauntlet"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Meltagun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Questoris Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icarus Autocannons"
+                                },
+                                {
+                                    "name": "Ironstorm Missile Pod"
+                                },
+                                {
+                                    "name": "Stormspear Rocket Pod"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.ik.upg.reveredKnight",
+                        "w40k.10e.ik.upg.mysteriousGuardian",
+                        "w40k.10e.ik.upg.mythicHero",
+                        "w40k.10e.ik.upg.banner",
+                        "w40k.10e.ik.upg.unyieldingParagon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.gallant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "order": 1,
+            "name": "Knight Gallant",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Knight Gallant",
+                    "points": 400,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Meltagun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Questoris Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icarus Autocannons"
+                                },
+                                {
+                                    "name": "Ironstorm Missile Pod"
+                                },
+                                {
+                                    "name": "Stormspear Rocket Pod"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.ik.upg.reveredKnight",
+                        "w40k.10e.ik.upg.mysteriousGuardian",
+                        "w40k.10e.ik.upg.mythicHero",
+                        "w40k.10e.ik.upg.banner",
+                        "w40k.10e.ik.upg.unyieldingParagon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.warden",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "order": 1,
+            "name": "Knight Warden",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Knight Warden",
+                    "points": 420,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Chainsword"
+                                },
+                                {
+                                    "name": "Thunderstrike Gauntlet"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Meltagun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Questoris Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icarus Autocannons"
+                                },
+                                {
+                                    "name": "Ironstorm Missile Pod"
+                                },
+                                {
+                                    "name": "Stormspear Rocket Pod"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.ik.upg.reveredKnight",
+                        "w40k.10e.ik.upg.mysteriousGuardian",
+                        "w40k.10e.ik.upg.mythicHero",
+                        "w40k.10e.ik.upg.banner",
+                        "w40k.10e.ik.upg.unyieldingParagon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.crusader",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "order": 1,
+            "name": "Knight Crusader",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Knight Crusader",
+                    "points": 415,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Thermal Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Thermal Cannon"
+                                },
+                                {
+                                    "name": "Rapid-fire Battle Cannon, Questoris Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Meltagun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Questoris Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icarus Autocannons"
+                                },
+                                {
+                                    "name": "Ironstorm Missile Pod"
+                                },
+                                {
+                                    "name": "Stormspear Rocket Pod"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.ik.upg.reveredKnight",
+                        "w40k.10e.ik.upg.mysteriousGuardian",
+                        "w40k.10e.ik.upg.mythicHero",
+                        "w40k.10e.ik.upg.banner",
+                        "w40k.10e.ik.upg.unyieldingParagon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.preceptor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "order": 1,
+            "name": "Knight Preceptor",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Knight Preceptor",
+                    "points": 375,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Chainsword"
+                                },
+                                {
+                                    "name": "Thunderstrike Gauntlet"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Multi-laser"
+                            },
+                            "options": [
+                                {
+                                    "name": "Multi-laser"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Questoris Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Icarus Autocannons"
+                                },
+                                {
+                                    "name": "Ironstorm Missile Pod"
+                                },
+                                {
+                                    "name": "Stormspear Rocket Pod"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.ik.upg.reveredKnight",
+                        "w40k.10e.ik.upg.mysteriousGuardian",
+                        "w40k.10e.ik.upg.mythicHero",
+                        "w40k.10e.ik.upg.banner",
+                        "w40k.10e.ik.upg.unyieldingParagon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.castellan",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "order": 1,
+            "name": "Knight Castellan",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Knight Castellan",
+                    "points": 495,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "2 Shieldbreaker Missle Launchers, Twin Siegebreaker Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "2 Shieldbreaker Missle Launchers, Twin Siegebreaker Cannon"
+                                },
+                                {
+                                    "name": "Shieldbreaker Missle Launcher, 2 Twin Siegebreaker Cannons"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.ik.upg.reveredKnight",
+                        "w40k.10e.ik.upg.mysteriousGuardian",
+                        "w40k.10e.ik.upg.mythicHero",
+                        "w40k.10e.ik.upg.banner",
+                        "w40k.10e.ik.upg.unyieldingParagon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.valiant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "order": 1,
+            "name": "Knight Valiant",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Knight Valiant",
+                    "points": 490,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "2 Shieldbreaker Missle Launchers, Twin Siegebreaker Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "2 Shieldbreaker Missle Launchers, Twin Siegebreaker Cannon"
+                                },
+                                {
+                                    "name": "Shieldbreaker Missle Launcher, 2 Twin Siegebreaker Cannons"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.ik.upg.reveredKnight",
+                        "w40k.10e.ik.upg.mysteriousGuardian",
+                        "w40k.10e.ik.upg.mythicHero",
+                        "w40k.10e.ik.upg.banner",
+                        "w40k.10e.ik.upg.unyieldingParagon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ik.unit.canisRex",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ik",
+            "order": 1,
+            "name": "Canis Rex",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Canis Rex",
+                    "points": 405,
+                    "possibleWarlord": true
+                }
+            ]
+        }
+    ]
+}

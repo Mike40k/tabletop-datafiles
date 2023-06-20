@@ -1,0 +1,1772 @@
+{
+    "config": {
+        "id": "w40k.10e.dg.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.dg",
+        "name": "Death Guard",
+        "enabled": true,
+        "endpoint": "deathGuard.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.dg.dt.plagueCompany",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Plague Company",
+            "rule": ""
+        }
+    ],
+    "upgrades": [
+        {
+            "id": "w40k.10e.dg.upg.livingPlague",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.dg",
+            "upgradeType": "enhancement",
+            "name": "Living Plague",
+            "rule": "",
+            "points": 20
+        },
+        {
+            "id": "w40k.10e.dg.upg.theDroning",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.dg",
+            "upgradeType": "enhancement",
+            "name": "The Droning (Aura)",
+            "rule": "",
+            "points": 10
+        },
+        {
+            "id": "w40k.10e.dg.upg.deadlyPathogen",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.dg",
+            "upgradeType": "enhancement",
+            "name": "Deadly Pathogen",
+            "rule": "",
+            "points": 15
+        },
+        {
+            "id": "w40k.10e.dg.upg.shamblerot",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.dg",
+            "upgradeType": "enhancement",
+            "name": "Shamblerot",
+            "rule": "",
+            "points": 25
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.dg.unit.daemonPrince",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Daemon Prince",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Daemon Prince",
+                    "points": 170,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dg.upg.livingPlague",
+                        "w40k.10e.dg.upg.theDroning",
+                        "w40k.10e.dg.upg.deadlyPathogen",
+                        "w40k.10e.dg.upg.shamblerot"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.daemonPrinceWings",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Daemon Prince with Wings",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Daemon Prince with Wings",
+                    "points": 215,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dg.upg.livingPlague",
+                        "w40k.10e.dg.upg.theDroning",
+                        "w40k.10e.dg.upg.deadlyPathogen",
+                        "w40k.10e.dg.upg.shamblerot"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.typhus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Typhus",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Typhus",
+                    "points": 115,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.chaosLord",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Chaos Lord",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Chaos Lord",
+                    "points": 75,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Plague Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Bolt Pistol"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Plague Combi-bolter"
+                                },
+                                {
+                                    "name": "Plague Fist"
+                                },
+                                {
+                                    "name": "Plague-encrusted Exalted Weapon"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Lightning Claw"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Astartes Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Astartes Chainsword"
+                                },
+                                {
+                                    "name": "Plague Fist"
+                                },
+                                {
+                                    "name": "Plague-encrusted Exalted Weapon"
+                                },
+                                {
+                                    "name": "Lightning Claw"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dg.upg.livingPlague",
+                        "w40k.10e.dg.upg.theDroning",
+                        "w40k.10e.dg.upg.deadlyPathogen",
+                        "w40k.10e.dg.upg.shamblerot"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.chaosLordTerminatorArmour",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Chaos Lord in Terminator Armour",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Chaos Lord in Terminator Armour",
+                    "points": 100,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Plague Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Plague-encrusted Exalted Weapon"
+                                },
+                                {
+                                    "name": "Lightning Claw"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Plague-encrusted Exalted Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague-encrusted Exalted Weapon"
+                                },
+                                {
+                                    "name": "Chain Fist"
+                                },
+                                {
+                                    "name": "Plague Fist"
+                                },
+                                {
+                                    "name": "Lightning Claw"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dg.upg.livingPlague",
+                        "w40k.10e.dg.upg.theDroning",
+                        "w40k.10e.dg.upg.deadlyPathogen",
+                        "w40k.10e.dg.upg.shamblerot"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.lordVirulence",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Lord of Virulence",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Lord of Virulence",
+                    "points": 115,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dg.upg.livingPlague",
+                        "w40k.10e.dg.upg.theDroning",
+                        "w40k.10e.dg.upg.deadlyPathogen",
+                        "w40k.10e.dg.upg.shamblerot"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.lordContagion",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Lord of Contagion",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Lord of Contagion",
+                    "points": 100,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dg.upg.livingPlague",
+                        "w40k.10e.dg.upg.theDroning",
+                        "w40k.10e.dg.upg.deadlyPathogen",
+                        "w40k.10e.dg.upg.shamblerot"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.sorcererTerminatorArmour",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Sorcerer in Terminator Armour",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Sorcerer in Terminator Armour",
+                    "points": 80,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Plague Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Plague-encrusted Exalted Weapon"
+                                },
+                                {
+                                    "name": "Lightning Claw"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Plague-encrusted Exalted Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague-encrusted Exalted Weapon"
+                                },
+                                {
+                                    "name": "Chain Fist"
+                                },
+                                {
+                                    "name": "Plague Fist"
+                                },
+                                {
+                                    "name": "Lightning Claw"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dg.upg.livingPlague",
+                        "w40k.10e.dg.upg.theDroning",
+                        "w40k.10e.dg.upg.deadlyPathogen",
+                        "w40k.10e.dg.upg.shamblerot"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.malignantPlaguecaster",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Malignant Plaguecaster",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Malignant Plaguecaster",
+                    "points": 75,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dg.upg.livingPlague",
+                        "w40k.10e.dg.upg.theDroning",
+                        "w40k.10e.dg.upg.deadlyPathogen",
+                        "w40k.10e.dg.upg.shamblerot"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.plagueMarines",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Plague Marines",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Plague Marine, Plague Champion",
+                    "amount": 10,
+                    "cost": 200
+                },
+                {
+                    "name": "Plague Marine, Plague Champion",
+                    "amount": 5,
+                    "cost": 100
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Plague Marine",
+                    "min": 4,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Plague Marine",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Plague Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Boltgun"
+                                },
+                                {
+                                    "name": "Blight Launcher"
+                                },
+                                {
+                                    "name": "Plague Spewer"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plague Belcher"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Bubotic Weapon"
+                                },
+                                {
+                                    "name": "Heavy Plague Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Plague Marine",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Plague Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Boltgun"
+                                },
+                                {
+                                    "name": "Blight Launcher"
+                                },
+                                {
+                                    "name": "Plague Spewer"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plague Belcher"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Bubotic Weapon"
+                                },
+                                {
+                                    "name": "Heavy Plague Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Plague Marine",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Plague Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Boltgun"
+                                },
+                                {
+                                    "name": "Blight Launcher"
+                                },
+                                {
+                                    "name": "Plague Spewer"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plague Belcher"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Bubotic Weapon"
+                                },
+                                {
+                                    "name": "Heavy Plague Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Plague Marine",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Plague Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Boltgun"
+                                },
+                                {
+                                    "name": "Blight Launcher"
+                                },
+                                {
+                                    "name": "Plague Spewer"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plague Belcher"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Bubotic Weapon"
+                                },
+                                {
+                                    "name": "Heavy Plague Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Plague Marine",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Plague Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Boltgun"
+                                },
+                                {
+                                    "name": "Blight Launcher"
+                                },
+                                {
+                                    "name": "Plague Spewer"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plague Belcher"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Bubotic Weapon"
+                                },
+                                {
+                                    "name": "Heavy Plague Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Plague Champion",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Plague Boltgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Boltgun"
+                                },
+                                {
+                                    "name": "Plague Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Gun"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Plague Knives"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Knives"
+                                },
+                                {
+                                    "name": "Bubotic Weapon"
+                                },
+                                {
+                                    "name": "Heavy Plague Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.cultists",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Cultists",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Cultist, Cultist Champion",
+                    "amount": 20,
+                    "cost": 110
+                },
+                {
+                    "name": "Cultist, Cultist Champion",
+                    "amount": 10,
+                    "cost": 55
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Cultist",
+                    "min": 9,
+                    "max": 19
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Cultist Firearm"
+                            },
+                            "options": [
+                                {
+                                    "name": "Cultist Firearm"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Heavy Stubber"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cultist Champion"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.poxwalkers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Poxwalkers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Poxwalker",
+                    "amount": 20,
+                    "cost": 120
+                },
+                {
+                    "name": "Poxwalker",
+                    "amount": 10,
+                    "cost": 60
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Poxwalker",
+                    "min": 10,
+                    "max": 20
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Poxwalker"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Poxwalker"
+                },
+                {
+                    "name": "Poxwalker"
+                },
+                {
+                    "name": "Poxwalker"
+                },
+                {
+                    "name": "Poxwalker"
+                },
+                {
+                    "name": "Poxwalker"
+                },
+                {
+                    "name": "Poxwalker"
+                },
+                {
+                    "name": "Poxwalker"
+                },
+                {
+                    "name": "Poxwalker"
+                },
+                {
+                    "name": "Poxwalker"
+                },
+                {
+                    "name": "Poxwalker"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.noxiousBlightbringer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Noxious Blightbringer",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Noxious Blightbringer",
+                    "points": 60,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dg.upg.livingPlague",
+                        "w40k.10e.dg.upg.theDroning",
+                        "w40k.10e.dg.upg.deadlyPathogen",
+                        "w40k.10e.dg.upg.shamblerot"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.foulBlightspawn",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Foul Blightspawn",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Foul Blightspawn",
+                    "points": 55,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dg.upg.livingPlague",
+                        "w40k.10e.dg.upg.theDroning",
+                        "w40k.10e.dg.upg.deadlyPathogen",
+                        "w40k.10e.dg.upg.shamblerot"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.biologusPutrifier",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Biologus Putrifier",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Biologus Putrifier",
+                    "points": 60,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dg.upg.livingPlague",
+                        "w40k.10e.dg.upg.theDroning",
+                        "w40k.10e.dg.upg.deadlyPathogen",
+                        "w40k.10e.dg.upg.shamblerot"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.tallyman",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Tallyman",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Tallyman",
+                    "points": 55,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dg.upg.livingPlague",
+                        "w40k.10e.dg.upg.theDroning",
+                        "w40k.10e.dg.upg.deadlyPathogen",
+                        "w40k.10e.dg.upg.shamblerot"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.plagueSurgeon",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Plague Surgeon",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Plague Surgeon",
+                    "points": 65,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dg.upg.livingPlague",
+                        "w40k.10e.dg.upg.theDroning",
+                        "w40k.10e.dg.upg.deadlyPathogen",
+                        "w40k.10e.dg.upg.shamblerot"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.blightlordTerminators",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Blightlord Terminators",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Blightlord Terminator, Blightlord Champion",
+                    "amount": 10,
+                    "cost": 350
+                },
+                {
+                    "name": "Blightlord Terminator, Blightlord Champion",
+                    "amount": 5,
+                    "cost": 175
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Blightlord Terminator",
+                    "min": 4,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Blightlord Terminator",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Plague Combi-bolter, Bubotic Blade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Combi-bolter, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Combi-weapon, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Blight Launcher, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Reaper Autocannon, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Plague Spewer, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Flail of Corruption"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Blightlord Terminator",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Plague Combi-bolter, Bubotic Blade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Combi-bolter, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Combi-weapon, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Blight Launcher, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Reaper Autocannon, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Plague Spewer, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Flail of Corruption"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Blightlord Terminator",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Plague Combi-bolter, Bubotic Blade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Combi-bolter, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Combi-weapon, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Blight Launcher, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Reaper Autocannon, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Plague Spewer, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Flail of Corruption"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Blightlord Terminator",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Plague Combi-bolter, Bubotic Blade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Combi-bolter, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Combi-weapon, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Blight Launcher, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Reaper Autocannon, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Plague Spewer, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Flail of Corruption"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Blightlord Terminator",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Plague Combi-bolter, Bubotic Blade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Combi-bolter, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Combi-weapon, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Blight Launcher, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Reaper Autocannon, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Plague Spewer, Bubotic Blade"
+                                },
+                                {
+                                    "name": "Flail of Corruption"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Blightlord Champion",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Plague Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Plague Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.deathshroudTerminators",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Deathshroud Terminators",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Deathshroud Terminator, Deathshroud Champion",
+                    "amount": 6,
+                    "cost": 280
+                },
+                {
+                    "name": "Deathshroud Terminator, Deathshroud Champion",
+                    "amount": 3,
+                    "cost": 140
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Deathshroud Terminator",
+                    "min": 2,
+                    "max": 5
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Deathshroud Terminator"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Deathshroud Terminator"
+                },
+                {
+                    "name": "Deathshroud Terminator"
+                },
+                {
+                    "name": "Deathshroud Champion",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Plaguespurt Gauntlet"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.helbrute",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Helbrute",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Helbrute",
+                    "points": 155,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Multi-melta"
+                            },
+                            "options": [
+                                {
+                                    "name": "Multi-melta"
+                                },
+                                {
+                                    "name": "Helbrute Plasma Cannon"
+                                },
+                                {
+                                    "name": "Twin Autocannon"
+                                },
+                                {
+                                    "name": "Twin Plague Heavy Bolter"
+                                },
+                                {
+                                    "name": "Twin Lascannon"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Plague Combi-bolter"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Heavy Flamer"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Missile Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Plague Combi-bolter"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Heavy Flamer"
+                                },
+                                {
+                                    "name": "Helbrute Hammer"
+                                },
+                                {
+                                    "name": "Power Scourge"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.spawn",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Chaos Spawn",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Chaos Spawn",
+                    "amount": 2,
+                    "cost": 75
+                }
+            ],
+            "models": [
+                {
+                    "name": "Chaos Spawn"
+                },
+                {
+                    "name": "Chaos Spawn"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.myphiticBlighthauler",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Myphitic Blight-hauler",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Myphitic Blight-hauler",
+                    "amount": 3,
+                    "cost": 345
+                },
+                {
+                    "name": "Myphitic Blight-hauler",
+                    "amount": 2,
+                    "cost": 230
+                },
+                {
+                    "name": "Myphitic Blight-hauler",
+                    "amount": 1,
+                    "cost": 115
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Myphitic Blight-hauler",
+                    "min": 1,
+                    "max": 3
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Myphitic Blight-hauler"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Myphitic Blight-hauler"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.foetidBloatDrone",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Foetid Bloat Drone",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Foetid Bloat Drone",
+                    "points": 135,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Fleshmower"
+                            },
+                            "options": [
+                                {
+                                    "name": "Fleshmower"
+                                },
+                                {
+                                    "name": "Heavy Blight Launcher"
+                                },
+                                {
+                                    "name": "Plaguespitter, Plaguespitter"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.plagueburstCrawler",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Plagueburst Crawler",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Plagueburst Crawler",
+                    "points": 175,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Entropy Cannon, Entropy Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Entropy Cannon, Entropy Cannon"
+                                },
+                                {
+                                    "name": "Plaguespitter, Plaguespitter"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Heavy Slugger"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Slugger"
+                                },
+                                {
+                                    "name": "Rothail Volley Gun"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.landRaider",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Land Raider",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Land Raider",
+                    "points": 250,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Plague Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.annihilator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Predator Annihilator",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Predator Annihilator",
+                    "points": 130,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "2 Plague Heavy Bolters"
+                                },
+                                {
+                                    "name": "2 Lascannons"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "",
+                                "points": 0
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Plague Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.destructor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Predator Destructor",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Predator Destructor",
+                    "points": 140,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "2 Plague Heavy Bolters"
+                                },
+                                {
+                                    "name": "2 Lascannons"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Plague Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.rhino",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Rhino",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Rhino",
+                    "points": 80,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Plague Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.mortarion",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Mortarion",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Mortarion",
+                    "points": 370,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.iconBearer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Icon Bearer",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Icon Bearer",
+                    "points": 55,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dg.upg.livingPlague",
+                        "w40k.10e.dg.upg.theDroning",
+                        "w40k.10e.dg.upg.deadlyPathogen",
+                        "w40k.10e.dg.upg.shamblerot"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.dg.unit.miasmicMalignifier",
+            "type": "unit",
+            "rulesetId": "w40k.10e.dg",
+            "name": "Miasmic Malignifier",
+            "role": "FORTIFICATION",
+            "models": [
+                {
+                    "name": "Miasmic Malignifier",
+                    "points": 115,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.dg.upg.livingPlague",
+                        "w40k.10e.dg.upg.theDroning",
+                        "w40k.10e.dg.upg.deadlyPathogen",
+                        "w40k.10e.dg.upg.shamblerot"
+                    ]
+                }
+            ]
+        }
+    ]
+}

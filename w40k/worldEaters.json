@@ -1,0 +1,1581 @@
+{
+    "config": {
+        "id": "w40k.10e.we.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.we",
+        "name": "World Eaters",
+        "enabled": true,
+        "endpoint": "worldEaters.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.we.dt.berzerkerWarband",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.we",
+            "name": "Berzerker Warband",
+            "rule": ""
+        }
+    ],
+    "upgrades": [
+        {
+            "id": "w40k.10e.we.upg.favouredOfKhorne",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.we",
+            "upgradeType": "enhancement",
+            "name": "Favoured of Khorne",
+            "rule": "",
+            "points": 30
+        },
+        {
+            "id": "w40k.10e.we.upg.berzerkerGlaive",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.we",
+            "upgradeType": "enhancement",
+            "name": "Berzerker Glaive",
+            "rule": "",
+            "points": 25
+        },
+        {
+            "id": "w40k.10e.we.upg.battleLust",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.we",
+            "upgradeType": "enhancement",
+            "name": "Battle Lust",
+            "rule": "",
+            "points": 15
+        },
+        {
+            "id": "w40k.10e.we.upg.helmBrazenIre",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.we",
+            "upgradeType": "enhancement",
+            "name": "Helm of Brazen Ire",
+            "rule": "",
+            "points": 25
+        },
+        {
+            "id": "w40k.10e.we.upg.icon",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.we",
+            "upgradeType": "wargear",
+            "name": "Icon of Khorne",
+            "rule": ""
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.we.unit.angron",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Angron",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Angron",
+                    "points": 415,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.kharn",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Kharn the Betrayer",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Kharn the Betrayer",
+                    "points": 95,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.invocatus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Lord Invocatus",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Lord Invocatus",
+                    "points": 155,
+                    "possibleWarlord": true
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.daemonPrince",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Daemon Prince",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Daemon Prince",
+                    "points": 220,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.we.upg.favouredOfKhorne",
+                        "w40k.10e.we.upg.berzerkerGlaive",
+                        "w40k.10e.we.upg.battleLust",
+                        "w40k.10e.we.upg.helmBrazenIre"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.daemonPrinceWings",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Daemon Prince with Wings",
+            "role": "MONSTER",
+            "models": [
+                {
+                    "name": "Daemon Prince",
+                    "points": 215,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.we.upg.favouredOfKhorne",
+                        "w40k.10e.we.upg.berzerkerGlaive",
+                        "w40k.10e.we.upg.battleLust",
+                        "w40k.10e.we.upg.helmBrazenIre"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.lordOnJuggernaut",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Lord on Juggernaut",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Lord on Juggernaut",
+                    "points": 120,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.we.upg.favouredOfKhorne",
+                        "w40k.10e.we.upg.berzerkerGlaive",
+                        "w40k.10e.we.upg.battleLust",
+                        "w40k.10e.we.upg.helmBrazenIre"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.masterExecutions",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Master of Executions",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Master of Executions",
+                    "points": 80,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.we.upg.favouredOfKhorne",
+                        "w40k.10e.we.upg.berzerkerGlaive",
+                        "w40k.10e.we.upg.battleLust",
+                        "w40k.10e.we.upg.helmBrazenIre"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.berzerkers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Khorne Berzerkers",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Khorne Berzerker, Khorne Berzerker Champion",
+                    "amount": 10,
+                    "cost": 230
+                },
+                {
+                    "name": "Khorne Berzerker, Khorne Berzerker Champion",
+                    "amount": 5,
+                    "cost": 115
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Khorne Berzerker",
+                    "min": 4,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Khorne Berzerker",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Berzerker Chainblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Berzerker Chainblade"
+                                },
+                                {
+                                    "name": "Khornate Eviscerator"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Khorne Berzerker",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Berzerker Chainblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Berzerker Chainblade"
+                                },
+                                {
+                                    "name": "Khornate Eviscerator"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Khorne Berzerker",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Berzerker Chainblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Berzerker Chainblade"
+                                },
+                                {
+                                    "name": "Khornate Eviscerator"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Khorne Berzerker",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Berzerker Chainblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Berzerker Chainblade"
+                                },
+                                {
+                                    "name": "Khornate Eviscerator"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Khorne Berzerker",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Berzerker Chainblade"
+                            },
+                            "options": [
+                                {
+                                    "name": "Berzerker Chainblade"
+                                },
+                                {
+                                    "name": "Khornate Eviscerator"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Khorne Berzerker Champion",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "possibleUpgrades": [
+                "w40k.10e.we.upg.icon"
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.jakhals",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Jakhals",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Jakhal, Dishonoured, Jakhal Pack Leader",
+                    "amount": 20,
+                    "cost": 150
+                },
+                {
+                    "name": "Jakhal, Dishonoured, Jakhal Pack Leader",
+                    "amount": 10,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Jakhal",
+                    "min": 8,
+                    "max": 17
+                },
+                {
+                    "type": "model",
+                    "name": "Dishonoured",
+                    "min": 1,
+                    "max": 2
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Jakhal",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Jakhal Chainblades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Jakhal Chainblades"
+                                },
+                                {
+                                    "name": "Mauler Chainblade"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.we.upg.icon"
+                    ]
+                },
+                {
+                    "name": "Dishonoured",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Dishonoured Chainblades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Dishonoured Chainblades"
+                                },
+                                {
+                                    "name": "Skullsmasher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Jakhal",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Jakhal Chainblades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Jakhal Chainblades"
+                                },
+                                {
+                                    "name": "Mauler Chainblade"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.we.upg.icon"
+                    ]
+                },
+                {
+                    "name": "Jakhal",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Jakhal Chainblades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Jakhal Chainblades"
+                                },
+                                {
+                                    "name": "Mauler Chainblade"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.we.upg.icon"
+                    ]
+                },
+                {
+                    "name": "Jakhal",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Jakhal Chainblades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Jakhal Chainblades"
+                                },
+                                {
+                                    "name": "Mauler Chainblade"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.we.upg.icon"
+                    ]
+                },
+                {
+                    "name": "Jakhal",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Jakhal Chainblades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Jakhal Chainblades"
+                                },
+                                {
+                                    "name": "Mauler Chainblade"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.we.upg.icon"
+                    ]
+                },
+                {
+                    "name": "Jakhal",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Jakhal Chainblades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Jakhal Chainblades"
+                                },
+                                {
+                                    "name": "Mauler Chainblade"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.we.upg.icon"
+                    ]
+                },
+                {
+                    "name": "Jakhal",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Jakhal Chainblades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Jakhal Chainblades"
+                                },
+                                {
+                                    "name": "Mauler Chainblade"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.we.upg.icon"
+                    ]
+                },
+                {
+                    "name": "Jakhal",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Jakhal Chainblades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Jakhal Chainblades"
+                                },
+                                {
+                                    "name": "Mauler Chainblade"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.we.upg.icon"
+                    ]
+                },
+                {
+                    "name": "Jakhal",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Jakhal Chainblades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Jakhal Chainblades"
+                                },
+                                {
+                                    "name": "Mauler Chainblade"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleUpgrades": [
+                        "w40k.10e.we.upg.icon"
+                    ]
+                },
+                {
+                    "name": "Dishonoured",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Dishonoured Chainblades"
+                            },
+                            "options": [
+                                {
+                                    "name": "Dishonoured Chainblades"
+                                },
+                                {
+                                    "name": "Skullsmasher"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Jakhal Pack Leader"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.terminators",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Terminator Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Terminator, Terminator Champion",
+                    "amount": 10,
+                    "cost": 390
+                },
+                {
+                    "name": "Terminator, Terminator Champion",
+                    "amount": 5,
+                    "cost": 195
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Terminator",
+                    "min": 4,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Terminator",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Accursed Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Chain Fist"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "models": [
+                {
+                    "name": "Terminator",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Accursed Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Chain Fist"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Terminator",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Accursed Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Chain Fist"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Terminator",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Accursed Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Chain Fist"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Terminator",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Accursed Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Chain Fist"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Terminator Champion",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Combi-bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Accursed Weapon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Accursed Weapon"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Chain Fist"
+                                },
+                                {
+                                    "name": "Paired Accursed Weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.eightbound",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Eightbound",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Eightbound, Eightbound Champion",
+                    "amount": 6,
+                    "cost": 310
+                },
+                {
+                    "name": "Eightbound, Eightbound Champion",
+                    "amount": 3,
+                    "cost": 155
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Eightbound",
+                    "min": 2,
+                    "max": 5
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Eightbound"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Eightbound"
+                },
+                {
+                    "name": "Eightbound"
+                },
+                {
+                    "name": "Eightbound Champion",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Lacerators"
+                            },
+                            "options": [
+                                {
+                                    "name": "Lacerators"
+                                },
+                                {
+                                    "name": "Heavy Chainglaive"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.exaltedEightbound",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Exalted Eightbound",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Exalted Eightbound, Exalted Eightbound Champion",
+                    "amount": 6,
+                    "cost": 360
+                },
+                {
+                    "name": "Exalted Eightbound, Exalted Eightbound Champion",
+                    "amount": 3,
+                    "cost": 180
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Exalted Eightbound",
+                    "min": 2,
+                    "max": 5
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Exalted Eightbound"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Exalted Eightbound"
+                },
+                {
+                    "name": "Exalted Eightbound"
+                },
+                {
+                    "name": "Exalted Eightbound Champion",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Eightbound Eviscerator, Eightbound Chainfist"
+                            },
+                            "options": [
+                                {
+                                    "name": "Eightbound Eviscerator, Eightbound Chainfist"
+                                },
+                                {
+                                    "name": "Paired Eightbound Chainfists"
+                                },
+                                {
+                                    "name": "Heavy Chainglaive"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.landRaider",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Land Raider",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Land Raider",
+                    "points": 255,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.annihilator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Predator Annihilator",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Predator Annihilator",
+                    "points": 130,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "2 Heavy Bolters"
+                                },
+                                {
+                                    "name": "2 Lascannons"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "",
+                                "points": 0
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.destructor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Predator Destructor",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Predator Destructor",
+                    "points": 130,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "2 Heavy Bolters"
+                                },
+                                {
+                                    "name": "2 Lascannons"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.defiler",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Defiler",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Defiler",
+                    "points": 210,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Twin Heavy Flamer"
+                            },
+                            "options": [
+                                {
+                                    "name": "Twin Heavy Flamer"
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                },
+                                {
+                                    "name": "Defiler Scourge"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Reaper Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Autocannon"
+                                },
+                                {
+                                    "name": "Twin Heavy Bolter"
+                                },
+                                {
+                                    "name": "Twin Lascannon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.forgefiend",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Forgefiend",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Forgefiend",
+                    "points": 150,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "2 Hades Autocannons"
+                            },
+                            "options": [
+                                {
+                                    "name": "2 Hades Autocannons"
+                                },
+                                {
+                                    "name": "2 Ectoplasma Cannons"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Forgefiend Jaws"
+                            },
+                            "options": [
+                                {
+                                    "name": "Forgefiend Jaws"
+                                },
+                                {
+                                    "name": "Ectoplasma Cannon, Forgefiend Claws"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.helbrute",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Helbrute",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Helbrute",
+                    "points": 150,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Multi-melta"
+                            },
+                            "options": [
+                                {
+                                    "name": "Multi-melta"
+                                },
+                                {
+                                    "name": "Helbrute Plasma Cannon"
+                                },
+                                {
+                                    "name": "Twin Autocannon"
+                                },
+                                {
+                                    "name": "Twin Heavy Bolter"
+                                },
+                                {
+                                    "name": "Twin Lascannon"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Combi-bolter"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Heavy Flamer"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Missile Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Combi-bolter"
+                                },
+                                {
+                                    "name": "Helbrute Fist, Heavy Flamer"
+                                },
+                                {
+                                    "name": "Helbrute Hammer"
+                                },
+                                {
+                                    "name": "Power Scourge"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.heldrake",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Heldrake",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Heldrake",
+                    "points": 215,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hades Autocannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hades Autocannon"
+                                },
+                                {
+                                    "name": "Baleflamer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.maulerfiend",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Maulerfiend",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Maulerfiend",
+                    "points": 175,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Lasher Tendrils"
+                            },
+                            "options": [
+                                {
+                                    "name": "Lasher Tendrils"
+                                },
+                                {
+                                    "name": "2 Magma Cutters"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.rhino",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Rhino",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Rhino",
+                    "points": 85,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Combi-bolter"
+                                },
+                                {
+                                    "name": "Combi-weapon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Havoc Launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.spawn",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Chaos Spawn",
+            "role": "BEAST",
+            "points": [
+                {
+                    "name": "Chaos Spawn",
+                    "amount": 2,
+                    "cost": 65
+                }
+            ],
+            "models": [
+                {
+                    "name": "Chaos Spawn"
+                },
+                {
+                    "name": "Chaos Spawn"
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.klos",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Khorne Lord of Skulls",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Khorne Lord of Skulls",
+                    "points": 420,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Gorestorm Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Gorestorm Cannon"
+                                },
+                                {
+                                    "name": "Daemongore Cannon"
+                                },
+                                {
+                                    "name": "Ichor Cannon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Hades Gatling Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hades Gatling Cannon"
+                                },
+                                {
+                                    "name": "Skullhurler"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

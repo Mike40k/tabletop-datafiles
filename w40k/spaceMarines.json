@@ -1,0 +1,113 @@
+{
+    "config": {
+        "id": "w40k.10e.sm.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.sm",
+        "name": "Space Marines",
+        "enabled": false,
+        "endpoint": "spaceMarines.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.sm.dt.gladius",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.sm",
+            "name": "Gladius Task Force",
+            "rule": ""
+        }
+    ],
+    "upgrades": [
+        {
+            "id": "w40k.10e.sm.upg.artificerArmour",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.sm",
+            "upgradeType": "enhancement",
+            "name": "Artificer Armour",
+            "rule": "",
+            "points": 0
+        },
+        {
+            "id": "w40k.10e.sm.upg.honourVehement",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.sm",
+            "upgradeType": "enhancement",
+            "name": "The Honour Vehement",
+            "rule": "",
+            "points": 0
+        },
+        {
+            "id": "w40k.10e.sm.upg.adept",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.sm",
+            "upgradeType": "enhancement",
+            "name": "Adept of the Codex",
+            "rule": "",
+            "points": 0
+        },
+        {
+            "id": "w40k.10e.sm.upg.bolterDiscipline",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.sm",
+            "upgradeType": "enhancement",
+            "name": "Bolter Discipline",
+            "rule": "",
+            "points": 0
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.sm.unit.outriders",
+            "type": "unit",
+            "rulesetId": "w40k.10e.sm",
+            "order": 2,
+            "name": "Outrider Squad",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Outrider, Outrider Sergeant",
+                    "amount": 6,
+                    "cost": 230
+                },
+                {
+                    "name": "Outrider, Outrider Sergeant",
+                    "amount": 3,
+                    "cost": 115
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Outrider",
+                    "min": 2,
+                    "max": 5
+                },
+                {
+                    "type": "model",
+                    "name": "Invader ATV",
+                    "min": 0,
+                    "max": 1
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Invader ATV",
+                    "points": 80
+                },
+                {
+                    "name": "Outrider"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Outrider"
+                },
+                {
+                    "name": "Outrider"
+                },
+                {
+                    "name": "Outrider Sergeant"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,459 @@
+{
+    "config": {
+        "id": "w40k.10e.ck.config",
+        "type": "config",
+        "rulesetId": "w40k.10e.ck",
+        "name": "Chaos Knights",
+        "enabled": true,
+        "endpoint": "chaosKnights.json"
+    },
+    "detachments": [
+        {
+            "id": "w40k.10e.ck.dt.lance",
+            "type": "detachment",
+            "rulesetId": "w40k.10e.ck",
+            "name": "Traitoris Lance",
+            "rule": ""
+        }
+    ],
+    "upgrades": [
+        {
+            "id": "w40k.10e.ck.upg.lordOfDread",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.ck",
+            "upgradeType": "enhancement",
+            "name": "Lord of Dread",
+            "rule": "",
+            "points": 35
+        },
+        {
+            "id": "w40k.10e.ck.upg.auraOfTerror",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.ck",
+            "upgradeType": "enhancement",
+            "name": "Aura of Terror",
+            "rule": "",
+            "points": 25
+        },
+        {
+            "id": "w40k.10e.ck.upg.traitorsMark",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.ck",
+            "upgradeType": "enhancement",
+            "name": "The Traitor's Mark",
+            "rule": "",
+            "points": 30
+        },
+        {
+            "id": "w40k.10e.ck.upg.panoply",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.ck",
+            "upgradeType": "enhancement",
+            "name": "Panoply of the Cursed Knights",
+            "rule": "",
+            "points": 40
+        }
+    ],
+    "units": [
+        {
+            "id": "w40k.10e.ck.unit.executioner",
+            "type": "unit",
+            "order": 2,
+            "rulesetId": "w40k.10e.ck",
+            "name": "War Dog Executioner",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "War Dog Executioner",
+                    "points": 135,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Diabolus Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Diabolus Heavy Stubber"
+                                },
+                                {
+                                    "name": "Daemonbreath Meltagun"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.stalker",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "order": 2,
+            "name": "War Dog Stalker",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "War Dog Stalker",
+                    "points": 135,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Avenger Chaincannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "Avenger Chaincannon"
+                                },
+                                {
+                                    "name": "Daemonbreath Spear"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Slaughterclaw"
+                            },
+                            "options": [
+                                {
+                                    "name": "Slaughterclaw"
+                                },
+                                {
+                                    "name": "Reaper Chaintalon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Diabolus Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Diabolus Heavy Stubber"
+                                },
+                                {
+                                    "name": "Havoc Multi-launcher"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.ck.upg.lordOfDread",
+                        "w40k.10e.ck.upg.auraOfTerror",
+                        "w40k.10e.ck.upg.traitorsMark",
+                        "w40k.10e.ck.upg.panoply"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.karnivore",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "order": 2,
+            "name": "War Dog Karnivore",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "War Dog Karnivore",
+                    "points": 160,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Diabolus Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Diabolus Heavy Stubber"
+                                },
+                                {
+                                    "name": "Havoc Multi-launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.brigand",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "order": 2,
+            "name": "War Dog Brigand",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "War Dog Brigand",
+                    "points": 150,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Diabolus Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Diabolus Heavy Stubber"
+                                },
+                                {
+                                    "name": "Havoc Multi-launcher"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.huntsman",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "order": 2,
+            "name": "War Dog Huntsman",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "War Dog Huntsman",
+                    "points": 140,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Diabolus Heavy Stubber"
+                            },
+                            "options": [
+                                {
+                                    "name": "Diabolus Heavy Stubber"
+                                },
+                                {
+                                    "name": "Daemonbreath Meltagun"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.despoiler",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "order": 1,
+            "name": "Knight Despoiler",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Knight Despoiler",
+                    "points": 410,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Chainsword"
+                                },
+                                {
+                                    "name": "Daemonbreath Thermal Cannon"
+                                },
+                                {
+                                    "name": "Despoiler Gatling Cannon, Heavy Darkflamer"
+                                },
+                                {
+                                    "name": "Despoiler Battle Cannon, Diabolus Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Warpstrike Claw"
+                            },
+                            "options": [
+                                {
+                                    "name": "Warpstrike Claw"
+                                },
+                                {
+                                    "name": "Daemonbreath Thermal Cannon"
+                                },
+                                {
+                                    "name": "Despoiler Gatling Cannon, Heavy Darkflamer"
+                                },
+                                {
+                                    "name": "Despoiler Battle Cannon, Diabolus Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "Daemonbreath Meltagun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Daemonbreath Meltagun"
+                                },
+                                {
+                                    "name": "Diabolus Heavy Stubber"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "",
+                                "points": 0
+                            },
+                            "options": [
+                                {
+                                    "name": "",
+                                    "points": 0
+                                },
+                                {
+                                    "name": "Havoc Missile Pod"
+                                },
+                                {
+                                    "name": "Ruinspear Rocket Pod"
+                                },
+                                {
+                                    "name": "Hellstorm Autocannons"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.ck.upg.lordOfDread",
+                        "w40k.10e.ck.upg.auraOfTerror",
+                        "w40k.10e.ck.upg.traitorsMark",
+                        "w40k.10e.ck.upg.panoply"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.desecrator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "order": 1,
+            "name": "Knight Desecrator",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Knight Desecrator",
+                    "points": 390,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Reaper Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Reaper Chainsword"
+                                },
+                                {
+                                    "name": "Warpstrike Claw"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.ck.upg.lordOfDread",
+                        "w40k.10e.ck.upg.auraOfTerror",
+                        "w40k.10e.ck.upg.traitorsMark",
+                        "w40k.10e.ck.upg.panoply"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.rampager",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "order": 1,
+            "name": "Knight Rampager",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Knight Rampager",
+                    "points": 395,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.ck.upg.lordOfDread",
+                        "w40k.10e.ck.upg.auraOfTerror",
+                        "w40k.10e.ck.upg.traitorsMark",
+                        "w40k.10e.ck.upg.panoply"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.abominant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "order": 1,
+            "name": "Knight Abominant",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Knight Abominant",
+                    "points": 395,
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.ck.upg.lordOfDread",
+                        "w40k.10e.ck.upg.auraOfTerror",
+                        "w40k.10e.ck.upg.traitorsMark",
+                        "w40k.10e.ck.upg.panoply"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.ck.unit.tyrant",
+            "type": "unit",
+            "rulesetId": "w40k.10e.ck",
+            "order": 1,
+            "name": "Knight Tyrant",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Knight Tyrant",
+                    "points": 485,
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Brimstone Volcano Lance, Ectoplasma Decimator"
+                            },
+                            "options": [
+                                {
+                                    "name": "Brimstone Volcano Lance, Ectoplasma Decimator"
+                                },
+                                {
+                                    "name": "Darkflame Cannon, Warpshock Harpoon"
+                                }
+                            ]
+                        },
+                        {
+                            "selectedOption": {
+                                "name": "2 Gheiststrike Missle Launchers, Twin Desecrator Cannon"
+                            },
+                            "options": [
+                                {
+                                    "name": "2 Gheiststrike Missle Launchers, Twin Desecrator Cannon"
+                                },
+                                {
+                                    "name": "Gheiststrike Missle Launcher, 2 Twin Desecrator Cannons"
+                                }
+                            ]
+                        }
+                    ],
+                    "possibleWarlord": true,
+                    "possibleUpgrades": [
+                        "w40k.10e.ck.upg.lordOfDread",
+                        "w40k.10e.ck.upg.auraOfTerror",
+                        "w40k.10e.ck.upg.traitorsMark",
+                        "w40k.10e.ck.upg.panoply"
+                    ]
+                }
+            ]
+        }
+    ]
+}
