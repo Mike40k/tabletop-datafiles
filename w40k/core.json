@@ -4,6 +4,7 @@
             "id": "w40k.10e",
             "name": "Warhammer 40,000: 10th Edition",
             "enabled": true,
+            "path": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/",
             "configs": [
                 {
                     "id": "w40k.10e.ck.config",
