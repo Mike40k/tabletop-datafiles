@@ -5,7 +5,7 @@
         "rulesetId": "w40k.10e.am",
         "name": "Astra Militarum",
         "enabled": false,
-        "endpoint": "astraMilitarum.json"
+        "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/astraMilitarum.json"
     },
     "detachments": [
         {
