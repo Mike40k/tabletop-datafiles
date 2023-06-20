@@ -11,7 +11,7 @@
                     "rulesetId": "w40k.10e.ck",
                     "name": "Chaos Knights",
                     "enabled": true,
-                    "endpoint": "chaosKnights.json"
+                    "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/chaosKnights.json"
                 },
                 {
                     "id": "w40k.10e.ik.config",
@@ -19,7 +19,7 @@
                     "rulesetId": "w40k.10e.ik",
                     "name": "Imperial Knights",
                     "enabled": true,
-                    "endpoint": "imperialKnights.json"
+                    "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/imperialKnights.json"
                 },
                 {
                     "id": "w40k.10e.we.config",
@@ -27,7 +27,7 @@
                     "rulesetId": "w40k.10e.we",
                     "name": "World Eaters",
                     "enabled": true,
-                    "endpoint": "worldEaters.json"
+                    "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/worldEaters.json"
                 },
                 {
                     "id": "w40k.10e.dmns.config",
@@ -35,7 +35,7 @@
                     "rulesetId": "w40k.10e.dmns",
                     "name": "Legiones Daemonica",
                     "enabled": true,
-                    "endpoint": "legionesDaemonica.json"
+                    "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/legionesDaemonica.json"
                 },
                 {
                     "id": "w40k.10e.tsons.config",
@@ -43,7 +43,7 @@
                     "rulesetId": "w40k.10e.tsons",
                     "name": "Thousand Sons",
                     "enabled": true,
-                    "endpoint": "thousandSons.json"
+                    "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/thousandSons.json"
                 },
                 {
                     "id": "w40k.10e.vtn.config",
@@ -51,7 +51,7 @@
                     "rulesetId": "w40k.10e.vtn",
                     "name": "Leagues of Votann",
                     "enabled": true,
-                    "endpoint": "votann.json"
+                    "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/votann.json"
                 },
                 {
                     "id": "w40k.10e.cst.config",
@@ -59,7 +59,7 @@
                     "rulesetId": "w40k.10e.cst",
                     "name": "Adeptus Custodes",
                     "enabled": true,
-                    "endpoint": "custodes.json"
+                    "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/custodes.json"
                 },
                 {
                     "id": "w40k.10e.gsc.config",
@@ -67,7 +67,7 @@
                     "rulesetId": "w40k.10e.gsc",
                     "name": "Genestealer Cults",
                     "enabled": true,
-                    "endpoint": "genestealerCults.json"
+                    "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/genestealerCults.json"
                 },
                 {
                     "id": "w40k.10e.gk.config",
@@ -75,7 +75,7 @@
                     "rulesetId": "w40k.10e.gk",
                     "name": "Grey Knights",
                     "enabled": true,
-                    "endpoint": "greyKnights.json"
+                    "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/greyKnights.json"
                 },
                 {
                     "id": "w40k.10e.dg.config",
@@ -83,7 +83,7 @@
                     "rulesetId": "w40k.10e.dg",
                     "name": "Death Guard",
                     "enabled": true,
-                    "endpoint": "deathGuard.json"
+                    "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/deathGuard.json"
                 },
                 {
                     "id": "w40k.10e.csm.config",
@@ -91,7 +91,7 @@
                     "rulesetId": "w40k.10e.csm",
                     "name": "Traitoris Astartes",
                     "enabled": false,
-                    "endpoint": "traitorisAstartes.json"
+                    "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/traitorisAstartes.json"
                 },
                 {
                     "id": "w40k.10e.sm.config",
@@ -99,7 +99,7 @@
                     "rulesetId": "w40k.10e.sm",
                     "name": "Space Marines",
                     "enabled": false,
-                    "endpoint": "spaceMarines.json"
+                    "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/spaceMarines.json"
                 }
             ]
         },
