@@ -5,7 +5,7 @@
         "rulesetId": "w40k.10e.cst",
         "name": "Adeptus Custodes",
         "enabled": true,
-        "endpoint": "custodes.json"
+        "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/custodes.json"
     },
     "detachments": [
         {
