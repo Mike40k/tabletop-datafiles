@@ -5,7 +5,7 @@
         "rulesetId": "w40k.10e.tsons",
         "name": "Thousand Sons",
         "enabled": true,
-        "endpoint": "thousandSons.json"
+        "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/thousandSons.json"
     },
     "detachments": [
         {
