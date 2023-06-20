@@ -5,7 +5,7 @@
         "rulesetId": "w40k.10e.dmns",
         "name": "Legiones Daemonica",
         "enabled": true,
-        "endpoint": "legionesDaemonica.json"
+        "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/legionesDaemonica.json"
     },
     "detachments": [
         {
