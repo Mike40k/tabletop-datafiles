@@ -5,7 +5,7 @@
         "rulesetId": "w40k.10e.vtn",
         "name": "Leagues of Votann",
         "enabled": true,
-        "endpoint": "votann.json"
+        "endpoint": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/main/w40k/votann.json"
     },
     "detachments": [
         {
