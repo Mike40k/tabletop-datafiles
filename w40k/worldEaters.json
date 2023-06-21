@@ -133,7 +133,7 @@
             "role": "MONSTER",
             "models": [
                 {
-                    "name": "Daemon Prince",
+                    "name": "Daemon Prince with Wings",
                     "points": 215,
                     "possibleWarlord": true,
                     "possibleUpgrades": [
