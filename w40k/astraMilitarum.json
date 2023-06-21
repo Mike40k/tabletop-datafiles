@@ -17,9 +17,3524 @@
         }
     ],
     "upgrades": [
-
+        {
+            "id": "w40k.10e.am.upg.DeathMaskOllanius",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.am",
+            "upgradeType": "enhancement",
+            "name": "Death Mask of Ollanius",
+            "rule": "",
+            "points": 10
+        },
+		        {
+            "id": "w40k.10e.am.upg.DrillCommander",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.am",
+            "upgradeType": "enhancement",
+            "name": "Drill Commander",
+            "rule": "",
+            "points": 20
+        },
+		        {
+            "id": "w40k.10e.am.upg.GrandStrategist",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.am",
+            "upgradeType": "enhancement",
+            "name": "Grand Strategist",
+            "rule": "",
+            "points": 15
+        },
+		        {
+            "id": "w40k.10e.am.upg.KurovsAquila",
+            "type": "upgrade",
+            "rulesetId": "w40k.10e.am",
+            "upgradeType": "enhancement",
+            "name": "Kurov's Aquila",
+            "rule": "",
+            "points": 40
+        },
     ],
     "units": [
-        
+        {
+            "id": "w40k.10e.am.unit.Leontus",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Lord Solar Leontus",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Lord Solar Leontus",
+                    "points": 125,
+                    "possibleWarlord": true
+                } 
+		}
+        {
+            "id": "w40k.10e.am.unit.UrsulaCreed",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Ursula Creed",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Ursula Creed",
+                    "points": 55,
+                    "possibleWarlord": true
+                }
+		}
+        {
+            "id": "w40k.10e.am.unit.cadiacastellan",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Cadian Castellan",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Cadian Castellan",
+                    "points": 50,
+                    "possibleWarlord": true
+                }
+		}
+        {
+            "id": "w40k.10e.am.unit.TankCommander",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Tank Commander",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Tank Commander",
+                    "points": 240,
+                    "possibleWarlord": true
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "Leman Russ Battle Cannon"
+							},
+							"options": [
+								{
+									"name": "Leman Russ Battle Cannon"
+								},
+								{
+									"name": "Demolisher Battle Cannon"
+								},
+								{
+									"name": "Eradicator Nova Cannon"
+								},
+								{
+									"name": "Executioner Plasma Cannon"
+								},
+								{
+									"name": "Exterminator Autocannon"
+								},
+								{
+									"name": "Punisher Gatling Cannon"
+								},
+								{
+									"name": "Vanquisher Battle Cannon"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": "1 Lascannon"
+							},
+							"options": [
+								{
+									"name": "1 Lascannon"
+								},
+								{
+									"name": "1 Heavy Bolter"
+								},
+								{
+									"name": "1 Heavy Flamer"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Heavy Bolters"
+								},
+								{
+									"name": "2 Heavy Flamers"
+								},
+								{
+									"name": "2 Multi-Meltas"
+								},
+								{
+									"name": "2 Militarum Plasma Cannons"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "1 Heavy Stubber"
+								},
+								{
+									"name": "1 Storm Bolter"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "1 Hunter-Killer Missile"
+								},
+							]
+                		},
+				}
+		}
+        {
+            "id": "w40k.10e.am.unit.ironhandstraken",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Iron Hand Straken",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Iron Hand Straken",
+                    "points": 60,
+                    "possibleWarlord": true
+                }
+		}
+        {
+            "id": "w40k.10e.am.unit.primarispsyker",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Primaris Psyker",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Primaris Psyker",
+                    "points": 60,
+                    "possibleWarlord": true
+                }
+		}
+        {
+            "id": "w40k.10e.am.unit.gauntsghosts",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Gaunt's Ghosts",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Gaunt's Ghosts",
+                    "points": 115,
+                }
+		}
+        {
+            "id": "w40k.10e.am.unit.regimentalattaches",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Regimental Attaches",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Regimental Attaches",
+                    "points": 40,
+                }
+		}
+        {
+            "id": "w40k.10e.am.unit.ogrynbodyguard",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Ogryn Bodyguard",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Ogryn Bodyguard",
+                    "points": 40,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "Ripper Gun"
+							},
+							"options": [
+								{
+									"name": "Ripper Gun"
+								},
+								{
+									"name": "Grenadier Gauntlet"
+								},
+								{
+									"name": "Bullgryn Maul"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": "Huge Knife"
+							},
+							"options": [
+								{
+									"name": "Huge Knife"
+								},
+								{
+									"name": "Brute Shield"
+								},
+								{
+									"name": "Slabshield"
+								},
+							]
+                		},
+					]	
+                }
+		}
+        {
+            "id": "w40k.10e.am.unit.norkdeddog",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Nork Deddog",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Nork Deddog",
+                    "points": 70,
+                }
+		}
+        {
+            "id": "w40k.10e.am.unit.slymarbo",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Sly Marbo",
+            "role": "INFANTRY",
+            "models": [
+                {
+                    "name": "Sly Marbo",
+                    "points": 75,
+                }
+		}
+        {
+            "id": "w40k.10e.we.unit.kasrkin",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Kasrkin",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Kasrkin Trooper, Kasrkin Sergeant",
+                    "amount": 10,
+                    "cost": 120
+                },
+            ],
+            ],
+            "models": [
+                {
+                    "name": "Kasrkin Trooper"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Marksman Rifle"
+                                },
+                                {
+                                    "name": "Hot-Shot Laspistol and Melta Mine"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Vox-Caster"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Kasrkin Trooper"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Marksman Rifle"
+                                },
+                                {
+                                    "name": "Hot-Shot Laspistol and Melta Mine"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Vox-Caster"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Kasrkin Trooper"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Marksman Rifle"
+                                },
+                                {
+                                    "name": "Hot-Shot Laspistol and Melta Mine"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Vox-Caster"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Kasrkin Trooper"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Marksman Rifle"
+                                },
+                                {
+                                    "name": "Hot-Shot Laspistol and Melta Mine"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Vox-Caster"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Kasrkin Trooper"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Marksman Rifle"
+                                },
+                                {
+                                    "name": "Hot-Shot Laspistol and Melta Mine"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Vox-Caster"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Kasrkin Trooper"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Marksman Rifle"
+                                },
+                                {
+                                    "name": "Hot-Shot Laspistol and Melta Mine"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Vox-Caster"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Kasrkin Trooper"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Marksman Rifle"
+                                },
+                                {
+                                    "name": "Hot-Shot Laspistol and Melta Mine"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Vox-Caster"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Kasrkin Trooper"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Marksman Rifle"
+                                },
+                                {
+                                    "name": "Hot-Shot Laspistol and Melta Mine"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Vox-Caster"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Kasrkin Trooper"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Marksman Rifle"
+                                },
+                                {
+                                    "name": "Hot-Shot Laspistol and Melta Mine"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Vox-Caster"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Kasrkin Sergeant",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Laspistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Laspistol"
+                                },
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                            ]
+                        }
+                        {
+                            "selectedOption": {
+                                "name": "Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Chainsword"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                },
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.am.unit.regimentalpreacher",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Regimental Preacher",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Regimental Preacher",
+                    "points": 35,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "Power Weapon"
+							},
+							"options": [
+								{
+									"name": "Power Weapon"
+								},
+								{
+									"name": "Autogun and Chainsword"
+								},
+								{
+									"name": "Preacher Shotgun and Chainsword"
+								},
+							]
+                		},
+                }
+		}
+		{
+            "id": "w40k.10e.am.unit.sergeantharker",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Sergeant Harker",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Sergeant Harker",
+                    "points": 60,
+                }
+		}
+		{
+            "id": "w40k.10e.am.unit.regimentalenginseer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Regimental Enginseer",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Regimental Enginseer",
+                    "points": 45,
+                }
+		}
+		{
+			"id": "w40k.10e.am.unit.munitorumservitor",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Munitorum Servitor",
+            "role": "INFANTRY",
+			"models": [
+                {
+                    "name": "Munitorum Servitors",
+					"amount": 4,
+                    "cost": 35,
+                }
+			],
+			"restrictions": [
+                {
+                    "type": "model",
+                    "name": "Munitorum Servitor",
+                    "min": 4,
+                    "max": 4
+                }
+			],
+			"models": [
+                {
+                    "name": "Munitorum Servitor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Servitor Servo-Arm"
+                            },
+                            "options": [
+								{
+                                    "name": "Servitor Servo-Arm"
+                                },
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Multi-Melta"
+                                },
+                                {
+                                    "name": "Plasma Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Munitorum Servitor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Servitor Servo-Arm"
+                            },
+                            "options": [
+								{
+                                    "name": "Servitor Servo-Arm"
+                                },
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Multi-Melta"
+                                },
+                                {
+                                    "name": "Plasma Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Munitorum Servitor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Servitor Servo-Arm"
+                            },
+                            "options": [
+								{
+                                    "name": "Servitor Servo-Arm"
+                                },
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Multi-Melta"
+                                },
+                                {
+                                    "name": "Plasma Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Munitorum Servitor",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Servitor Servo-Arm"
+                            },
+                            "options": [
+								{
+                                    "name": "Servitor Servo-Arm"
+                                },
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Multi-Melta"
+                                },
+                                {
+                                    "name": "Plasma Cannon"
+                                }
+                            ]
+                        }
+                    ]
+                },
+            ],
+        },
+		{
+            "id": "w40k.10e.am.unit.commissar",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Commissar",
+            "role": "LEADER",
+            "models": [
+                {
+                    "name": "Commissar",
+                    "points": 35,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "Bolt Pistol"
+							},
+							"options": [
+								{
+									"name": "Bolt Pistol"
+								},
+								{
+									"name": "Plasma Pistol"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": "Chainsword"
+							},
+							"options": [
+								{
+									"name": "Chainsword"
+								},
+								{
+									"name": "Power Sword"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+       {
+            "id": "w40k.10e.we.unit.Ogrynsquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Ogryn Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Ogryn, Ogryn Bone'ead",
+                    "amount": 6,
+                    "cost": 150
+                },
+                {
+                    "name": "Ogryn, Ogryn Bone'ead",
+                    "amount": 3,
+                    "cost": 75
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Ogryn",
+                    "min": 2,
+                    "max": 5
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Ogryn"
+                }
+            ],
+            "models": [
+                {
+                    "name": "Ogryn"
+                },
+                {
+                    "name": "Ogryn"
+                },
+                {
+                    "name": "Ogryn Bone'ead",
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.bullgrynsquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Bullgryn Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Bullgryn, Bullgryn Bone'ead",
+                    "amount": 6,
+                    "cost": 180
+                },
+                {
+                    "name": "Bullgryn, Bullgryn Bone'ead",
+                    "amount": 3,
+                    "cost": 90
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Bullgryn",
+                    "min": 2,
+                    "max": 5
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Bullgryn"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Grenadier Gauntlet"
+                            },
+                            "options": [
+                                {
+                                    "name": "Grenadier Gauntlet"
+                                },
+                                {
+                                    "name": "Bullgryn Maul"
+                                },
+                            ]
+                        }
+                }
+            ],
+            "models": [
+                {
+                    "name": "Bullgryn"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Grenadier Gauntlet"
+                            },
+                            "options": [
+                                {
+                                    "name": "Grenadier Gauntlet"
+                                },
+                                {
+                                    "name": "Bullgryn Maul"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Bullgryn"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Grenadier Gauntlet"
+                            },
+                            "options": [
+                                {
+                                    "name": "Grenadier Gauntlet"
+                                },
+                                {
+                                    "name": "Bullgryn Maul"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Bullgryn Bone'ead",
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Grenadier Gauntlet"
+                            },
+                            "options": [
+                                {
+                                    "name": "Grenadier Gauntlet"
+                                },
+                                {
+                                    "name": "Bullgryn Maul"
+                                },
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "id": "w40k.10e.am.unit.Ratlingsnipers",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Ratling Snipers",
+            "role": "INFANTRY",
+            "models": [
+                {
+                    "name": "Ratling Snipers",
+                    "points": 70,
+                }
+		}
+		{
+            "id": "w40k.10e.we.unit.Attilanroughriders",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Attilan Rough Riders",
+            "role": "MOUNTED",
+            "points": [
+                {
+                    "name": "Rough Rider, Rough Rider Sergeant",
+                    "amount": 10,
+                    "cost": 160
+                },
+                {
+                    "name": "Rough Rider, Rough Rider Sergeant",
+                    "amount": 5,
+                    "cost": 80
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Rough Rider",
+                    "min": 2,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Rough Rider"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hunting Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hunting Lance"
+                                },
+                                {
+                                    "name": "Goad Lance"
+                                },
+                            ]
+                        }
+                }
+            ],
+            "models": [
+                {
+                    "name": "Rough Rider"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hunting Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hunting Lance"
+                                },
+                                {
+                                    "name": "Goad Lance"
+                                },
+                            ]
+                        }
+                }
+                {
+                    "name": "Rough Rider"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hunting Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hunting Lance"
+                                },
+                                {
+                                    "name": "Goad Lance"
+                                },
+                            ]
+                        }
+                }
+                {
+                    "name": "Rough Rider"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hunting Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hunting Lance"
+                                },
+                                {
+                                    "name": "Goad Lance"
+                                },
+                            ]
+                        }
+                }
+                {
+                    "name": "Rough Rider"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hunting Lance"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hunting Lance"
+                                },
+                                {
+                                    "name": "Goad Lance"
+                                },
+                            ]
+                        }
+                }
+                {
+                    "name": "Rough Rider Sergeant"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Power Sabre"
+                                },
+                            ]
+                        }
+                }
+            ]
+        },
+		{
+            "id": "w40k.10e.we.unit.scoutsentinels",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Scout Sentinels",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Scout Sentinel",
+                    "amount": 1,
+                    "cost": 50
+                },
+                {
+                    "name": "Scout Sentinel",
+                    "amount": 2,
+                    "cost": 100
+                }
+				{
+                    "name": "Scout Sentinel",
+                    "amount": 3,
+                    "cost": 150
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Scout Sentinel",
+                    "min": 1,
+                    "max": 3
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Scout Sentinel"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Militarum Multi-Laser"
+                            },
+                            "options": [
+                                {
+                                    "name": "Militarum Multi-Laser"
+                                },
+                                {
+                                    "name": "Autocannon"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Lascannon"
+                                },
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Plasma Cannon"
+                                },								
+                            ]
+                        }
+						{
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Sentinel Chainsaw"
+                                },							
+                            ]
+                        }
+						{
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Hunter-Killer Missile"
+                                },							
+                            ]
+                        }						
+                }
+            ],
+            "models": [
+                {
+                    "name": "Scout Sentinel"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Militarum Multi-Laser"
+                            },
+                            "options": [
+                                {
+                                    "name": "Militarum Multi-Laser"
+                                },
+                                {
+                                    "name": "Autocannon"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Lascannon"
+                                },
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Plasma Cannon"
+                                },								
+                            ]
+                        }
+						{
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Sentinel Chainsaw"
+                                },							
+                            ]
+                        }
+						{
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Hunter-Killer Missile"
+                                },							
+                            ]
+                        }						
+                }
+            ]
+        },
+		{
+            "id": "w40k.10e.we.unit.armouredsentinels",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Armoured Sentinels",
+            "role": "VEHICLE",
+            "points": [
+                {
+                    "name": "Armoured Sentinel",
+                    "amount": 1,
+                    "cost": 70
+                },
+                {
+                    "name": "Armoured Sentinel",
+                    "amount": 2,
+                    "cost": 140
+                }
+				{
+                    "name": "Armoured Sentinel",
+                    "amount": 3,
+                    "cost": 210
+                }
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Armoured Sentinel",
+                    "min": 1,
+                    "max": 3
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Armoured Sentinel"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Militarum Multi-Laser"
+                            },
+                            "options": [
+                                {
+                                    "name": "Militarum Multi-Laser"
+                                },
+                                {
+                                    "name": "Autocannon"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Lascannon"
+                                },
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Plasma Cannon"
+                                },								
+                            ]
+                        }
+						{
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Sentinel Chainsaw"
+                                },							
+                            ]
+                        }
+						{
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Hunter-Killer Missile"
+                                },							
+                            ]
+                        }						
+                }
+            ],
+            "models": [
+                {
+                    "name": "Armoured Sentinel"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Militarum Multi-Laser"
+                            },
+                            "options": [
+                                {
+                                    "name": "Militarum Multi-Laser"
+                                },
+                                {
+                                    "name": "Autocannon"
+                                },
+                                {
+                                    "name": "Heavy Flamer"
+                                },
+                                {
+                                    "name": "Lascannon"
+                                },
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Plasma Cannon"
+                                },								
+                            ]
+                        }
+						{
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Sentinel Chainsaw"
+                                },							
+                            ]
+                        }
+						{
+                            "selectedOption": {
+                                "name": ""
+                            },
+                            "options": [
+                                {
+                                    "name": ""
+                                },
+                                {
+                                    "name": "Hunter-Killer Missile"
+                                },							
+                            ]
+                        }						
+                }
+            ]
+        },
+		{
+            "id": "w40k.10e.am.unit.Hellhound",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Hellhound",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Hellhound",
+                    "points": 125,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "Inferno Cannon"
+							},
+							"options": [
+								{
+									"name": "Inferno Cannon"
+								},
+								{
+									"name": "Chem Cannon"
+								},
+								{
+									"name": "Melta Cannon"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": "Heavy Flamer"
+							},
+							"options": [
+								{
+									"name": "Heavy Flamer"
+								},
+								{
+									"name": "Heavy Bolter"
+								},
+								{
+									"name": "Multi-Melta"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "Hunter-Killer Missile"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+		{
+            "id": "w40k.10e.am.unit.rogaldorn",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Rogal Dorn Battle Tank",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Rogal Dorn Battle Tank",
+                    "points": 285,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "Twin Battle Cannon"
+							},
+							"options": [
+								{
+									"name": "Twin Battle Cannon"
+								},
+								{
+									"name": "Oppressor Cannon and Co-Axial Autocannon"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": "Castigator Gatling Cannon"
+							},
+							"options": [
+								{
+									"name": "Castigator Gatling Cannon"
+								},
+								{
+									"name": "Pulveriser Cannon"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Meltaguns"
+								},
+								{
+									"name": "2 Heavy Stubbers"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Heavy Bolters"
+								},
+								{
+									"name": "2 Multi-Meltas"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+        {
+            "id": "w40k.10e.we.unit.heavyweaponsquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Heavy Weapons Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Heavy Weapon Team",
+                    "amount": 3,
+                    "cost": 60
+                },
+            ],
+            "models": [
+                {
+                    "name": "Heavy Weapon Team"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Heavy Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Autocannon"
+                                },
+                                {
+                                    "name": "Lascannon"
+                                },
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Mortar"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Heavy Weapon Team"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Heavy Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Autocannon"
+                                },
+                                {
+                                    "name": "Lascannon"
+                                },
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Mortar"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Heavy Weapon Team"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Heavy Bolter"
+                            },
+                            "options": [
+                                {
+                                    "name": "Heavy Bolter"
+                                },
+                                {
+                                    "name": "Autocannon"
+                                },
+                                {
+                                    "name": "Lascannon"
+                                },
+                                {
+                                    "name": "Missile Launcher"
+                                },
+                                {
+                                    "name": "Mortar"
+                                },
+                            ]
+                        }
+                },
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.fieldordnancebattery",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Field Ordnance Battery",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Ordnance Team",
+                    "amount": 2,
+                    "cost": 100
+                },
+            ],
+            "models": [
+                {
+                    "name": "Ordnance Team"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Malleus Rocket Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Malleus Rocket Launcher"
+                                },
+                                {
+                                    "name": "Bombast Field Gun"
+                                },
+                                {
+                                    "name": "Heavy Lascannon"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Ordnance Team"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Malleus Rocket Launcher"
+                            },
+                            "options": [
+                                {
+                                    "name": "Malleus Rocket Launcher"
+                                },
+                                {
+                                    "name": "Bombast Field Gun"
+                                },
+                                {
+                                    "name": "Heavy Lascannon"
+                                },
+                            ]
+                        }
+                },
+            ]
+        },
+        {
+            "id": "w40k.10e.am.unit.lemanrussbattletank",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Leman Russ Battle Tank",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Leman Russ Battle Tank",
+                    "points": 195,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "1 Lascannon"
+							},
+							"options": [
+								{
+									"name": "1 Lascannon"
+								},
+								{
+									"name": "1 Heavy Bolter"
+								},
+								{
+									"name": "1 Heavy Flamer"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Heavy Bolters"
+								},
+								{
+									"name": "2 Heavy Flamers"
+								},
+								{
+									"name": "2 Multi-Meltas"
+								},
+								{
+									"name": "2 Militarum Plasma Cannons"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "1 Heavy Stubber"
+								},
+								{
+									"name": "1 Storm Bolter"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "1 Hunter-Killer Missile"
+								},
+							]
+                		},
+				}
+		}
+		        {
+            "id": "w40k.10e.am.unit.lemanrussdemolisher",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Leman Russ Demolisher",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Leman Russ Demolisher",
+                    "points": 220,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "1 Lascannon"
+							},
+							"options": [
+								{
+									"name": "1 Lascannon"
+								},
+								{
+									"name": "1 Heavy Bolter"
+								},
+								{
+									"name": "1 Heavy Flamer"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Heavy Bolters"
+								},
+								{
+									"name": "2 Heavy Flamers"
+								},
+								{
+									"name": "2 Multi-Meltas"
+								},
+								{
+									"name": "2 Militarum Plasma Cannons"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "1 Heavy Stubber"
+								},
+								{
+									"name": "1 Storm Bolter"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "1 Hunter-Killer Missile"
+								},
+							]
+                		},
+				}
+		}
+        {
+            "id": "w40k.10e.am.unit.lemanrussvanquisher",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Leman Russ Vanquisher",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Leman Russ Vanquisher",
+                    "points": 190,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "1 Lascannon"
+							},
+							"options": [
+								{
+									"name": "1 Lascannon"
+								},
+								{
+									"name": "1 Heavy Bolter"
+								},
+								{
+									"name": "1 Heavy Flamer"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Heavy Bolters"
+								},
+								{
+									"name": "2 Heavy Flamers"
+								},
+								{
+									"name": "2 Multi-Meltas"
+								},
+								{
+									"name": "2 Militarum Plasma Cannons"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "1 Heavy Stubber"
+								},
+								{
+									"name": "1 Storm Bolter"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "1 Hunter-Killer Missile"
+								},
+							]
+                		},
+				}
+		}
+        {
+            "id": "w40k.10e.am.unit.lemanrusspunisher",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Leman Russ Punisher",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Leman Russ Punisher",
+                    "points": 180,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "1 Lascannon"
+							},
+							"options": [
+								{
+									"name": "1 Lascannon"
+								},
+								{
+									"name": "1 Heavy Bolter"
+								},
+								{
+									"name": "1 Heavy Flamer"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Heavy Bolters"
+								},
+								{
+									"name": "2 Heavy Flamers"
+								},
+								{
+									"name": "2 Multi-Meltas"
+								},
+								{
+									"name": "2 Militarum Plasma Cannons"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "1 Heavy Stubber"
+								},
+								{
+									"name": "1 Storm Bolter"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "1 Hunter-Killer Missile"
+								},
+							]
+                		},
+				}
+		}
+        {
+            "id": "w40k.10e.am.unit.lemanrussexecutioner",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Leman Russ Executioner",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Leman Russ Executioner",
+                    "points": 195,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "1 Lascannon"
+							},
+							"options": [
+								{
+									"name": "1 Lascannon"
+								},
+								{
+									"name": "1 Heavy Bolter"
+								},
+								{
+									"name": "1 Heavy Flamer"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Heavy Bolters"
+								},
+								{
+									"name": "2 Heavy Flamers"
+								},
+								{
+									"name": "2 Multi-Meltas"
+								},
+								{
+									"name": "2 Militarum Plasma Cannons"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "1 Heavy Stubber"
+								},
+								{
+									"name": "1 Storm Bolter"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "1 Hunter-Killer Missile"
+								},
+							]
+                		},
+				}
+		}
+        {
+            "id": "w40k.10e.am.unit.lemanrussexterminator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Leman Russ Exterminator",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Leman Russ Exterminator",
+                    "points": 200,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "1 Lascannon"
+							},
+							"options": [
+								{
+									"name": "1 Lascannon"
+								},
+								{
+									"name": "1 Heavy Bolter"
+								},
+								{
+									"name": "1 Heavy Flamer"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Heavy Bolters"
+								},
+								{
+									"name": "2 Heavy Flamers"
+								},
+								{
+									"name": "2 Multi-Meltas"
+								},
+								{
+									"name": "2 Militarum Plasma Cannons"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "1 Heavy Stubber"
+								},
+								{
+									"name": "1 Storm Bolter"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "1 Hunter-Killer Missile"
+								},
+							]
+                		},
+				}
+		}
+        {
+            "id": "w40k.10e.am.unit.lemanrusseradicator",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Leman Russ Eradicator",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Leman Russ Eradicator",
+                    "points": 180,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "1 Lascannon"
+							},
+							"options": [
+								{
+									"name": "1 Lascannon"
+								},
+								{
+									"name": "1 Heavy Bolter"
+								},
+								{
+									"name": "1 Heavy Flamer"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Heavy Bolters"
+								},
+								{
+									"name": "2 Heavy Flamers"
+								},
+								{
+									"name": "2 Multi-Meltas"
+								},
+								{
+									"name": "2 Militarum Plasma Cannons"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "1 Heavy Stubber"
+								},
+								{
+									"name": "1 Storm Bolter"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "1 Hunter-Killer Missile"
+								},
+							]
+                		},
+				}
+		}
+		{
+            "id": "w40k.10e.am.unit.basilisk",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Basilisk",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Basilisk",
+                    "points": 110,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "Heavy Bolter"
+							},
+							"options": [
+								{
+									"name": "Heavy Bolter"
+								},
+								{
+									"name": "Heavy Flamer"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "Hunter-Killer Missile"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+		{
+            "id": "w40k.10e.am.unit.hydra",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Hydra",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Hydra",
+                    "points": 95,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "Heavy Bolter"
+							},
+							"options": [
+								{
+									"name": "Heavy Bolter"
+								},
+								{
+									"name": "Heavy Flamer"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "Hunter-Killer Missile"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+		{
+            "id": "w40k.10e.am.unit.manticore",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Manticore",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Manticore",
+                    "points": 105,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "Heavy Bolter"
+							},
+							"options": [
+								{
+									"name": "Heavy Bolter"
+								},
+								{
+									"name": "Heavy Flamer"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "Hunter-Killer Missile"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+		{
+            "id": "w40k.10e.am.unit.wyvern",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Wyvern",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Wyvern",
+                    "points": 90,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "Heavy Bolter"
+							},
+							"options": [
+								{
+									"name": "Heavy Bolter"
+								},
+								{
+									"name": "Heavy Flamer"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "Hunter-Killer Missile"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+		{
+            "id": "w40k.10e.am.unit.deathstrike",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Deathstrike",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "deathstrike",
+                    "points": 135,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "Heavy Bolter"
+							},
+							"options": [
+								{
+									"name": "Heavy Bolter"
+								},
+								{
+									"name": "Heavy Flamer"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "Hunter-Killer Missile"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+		{
+            "id": "w40k.10e.am.unit.Chimera",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Chimera",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Chimera",
+                    "points": 85,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "Chimera Multi-Laser"
+							},
+							"options": [
+								{
+									"name": "Chimera Multi-Laser"
+								},
+								{
+									"name": "Chimera Heavy Flamer"
+								},
+								{
+									"name": "Chimera Heavy Bolter"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": "Heavy Bolter"
+							},
+							"options": [
+								{
+									"name": "Heavy Bolter"
+								},
+								{
+									"name": "Heavy Flamer"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "Hunter-Killer Missile"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+		{
+            "id": "w40k.10e.am.unit.taurox",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Taurox",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Taurox",
+                    "points": 65,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "Storm Bolter"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+		{
+            "id": "w40k.10e.am.unit.Valkyrie",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Valkyrie",
+            "role": "AIRCRAFT",
+            "models": [
+                {
+                    "name": "Valkyrie",
+                    "points": 200,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "Militarum Multi-Laser"
+							},
+							"options": [
+								{
+									"name": "Militarum Multi-Laser"
+								},
+								{
+									"name": "Lascannon"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": "Hellstrike Missiles"
+							},
+							"options": [
+								{
+									"name": "Hellstrike Missiles"
+								},
+								{
+									"name": "2 Multiple Rocket Pods"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Heavy Bolters"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+        {
+            "id": "w40k.10e.am.unit.aegisdefenceline",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Aegis Defence Line",
+            "role": "FORTIFICATION",
+            "models": [
+                {
+                    "name": "Aegis Defence Line",
+                    "points": 145,
+                }
+		}
+		{
+            "id": "w40k.10e.am.unit.baneblade",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Baneblade",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Baneblade",
+                    "points": 540,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "2 Twin Heavy Flamers"
+							},
+							"options": [
+								{
+									"name": "2 Twin Heavy Flamers"
+								},
+								{
+									"name": "2 Twin Heavy Bolters"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Lascannons and 2 Twin Heavy Bolters"
+								},
+								{
+									"name": "2 Lascannons and 2 Twin Heavy Flamers"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+		{
+            "id": "w40k.10e.am.unit.banehammer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Banehammer",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Banehammer",
+                    "points": 490,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "2 Twin Heavy Flamers"
+							},
+							"options": [
+								{
+									"name": "2 Twin Heavy Flamers"
+								},
+								{
+									"name": "2 Twin Heavy Bolters"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Lascannons and 2 Twin Heavy Bolters"
+								},
+								{
+									"name": "2 Lascannons and 2 Twin Heavy Flamers"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+		{
+            "id": "w40k.10e.am.unit.banesword",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Banesword",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Banesword",
+                    "points": 515,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "2 Twin Heavy Flamers"
+							},
+							"options": [
+								{
+									"name": "2 Twin Heavy Flamers"
+								},
+								{
+									"name": "2 Twin Heavy Bolters"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Lascannons and 2 Twin Heavy Bolters"
+								},
+								{
+									"name": "2 Lascannons and 2 Twin Heavy Flamers"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+		{
+            "id": "w40k.10e.am.unit.doomhammer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Doomhammer",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Doomhammer",
+                    "points": 455,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "2 Twin Heavy Flamers"
+							},
+							"options": [
+								{
+									"name": "2 Twin Heavy Flamers"
+								},
+								{
+									"name": "2 Twin Heavy Bolters"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Lascannons and 2 Twin Heavy Bolters"
+								},
+								{
+									"name": "2 Lascannons and 2 Twin Heavy Flamers"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+		{
+            "id": "w40k.10e.am.unit.hellhammer",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Hellhammer",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Hellhammer",
+                    "points": 510,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "2 Twin Heavy Flamers"
+							},
+							"options": [
+								{
+									"name": "2 Twin Heavy Flamers"
+								},
+								{
+									"name": "2 Twin Heavy Bolters"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Lascannons and 2 Twin Heavy Bolters"
+								},
+								{
+									"name": "2 Lascannons and 2 Twin Heavy Flamers"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+		{
+            "id": "w40k.10e.am.unit.Shadowsword",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Shadowsword",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Shadowsword",
+                    "points": 440,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "2 Twin Heavy Flamers"
+							},
+							"options": [
+								{
+									"name": "2 Twin Heavy Flamers"
+								},
+								{
+									"name": "2 Twin Heavy Bolters"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Lascannons and 2 Twin Heavy Bolters"
+								},
+								{
+									"name": "2 Lascannons and 2 Twin Heavy Flamers"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+		{
+            "id": "w40k.10e.am.unit.stormlord",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Stormlord",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Stormlord",
+                    "points": 460,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "2 Twin Heavy Flamers"
+							},
+							"options": [
+								{
+									"name": "2 Twin Heavy Flamers"
+								},
+								{
+									"name": "2 Twin Heavy Bolters"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Lascannons and 2 Twin Heavy Bolters"
+								},
+								{
+									"name": "2 Lascannons and 2 Twin Heavy Flamers"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+		{
+            "id": "w40k.10e.am.unit.stormsword",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Stormsword",
+            "role": "TITANIC",
+            "models": [
+                {
+                    "name": "Stormsword",
+                    "points": 520,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "2 Twin Heavy Flamers"
+							},
+							"options": [
+								{
+									"name": "2 Twin Heavy Flamers"
+								},
+								{
+									"name": "2 Twin Heavy Bolters"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "2 Lascannons and 2 Twin Heavy Bolters"
+								},
+								{
+									"name": "2 Lascannons and 2 Twin Heavy Flamers"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
+        {
+            "id": "w40k.10e.we.unit.tempestusscions",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Tempestus Scions",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Tempestus Scion, Tempestor"
+                    "amount": 5
+                    "cost": 60
+                },
+				               {
+                    "name": "Tempestus Scion, Tempestor"
+                    "amount": 10
+                    "cost": 120
+                },
+            ],
+            ],
+            "models": [
+                {
+                    "name": "Tempestus Scion"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Regimental Standard"
+                                },
+                                {
+                                    "name": "Hot-Shot Laspistol and Master Vox"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Medi-Pack"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Tempestus Scion"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Regimental Standard"
+                                },
+                                {
+                                    "name": "Hot-Shot Laspistol and Master Vox"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Medi-Pack"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Tempestus Scion"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Regimental Standard"
+                                },
+                                {
+                                    "name": "Hot-Shot Laspistol and Master Vox"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Medi-Pack"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Tempestus Scion"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Regimental Standard"
+                                },
+                                {
+                                    "name": "Hot-Shot Laspistol and Master Vox"
+                                },
+                                {
+                                    "name": "Hot-Shot Lasgun and Medi-Pack"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Tempestor Prime"
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Bolt Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Command Rod"
+                                },
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "w40k.10e.we.unit.tempestuscommandsquad",
+            "type": "unit",
+            "rulesetId": "w40k.10e.we",
+            "name": "Militarum Tempestus Command Squad",
+            "role": "INFANTRY",
+            "points": [
+                {
+                    "name": "Tempestus Scion, Tempestor Prime"
+                    "amount": 5
+                    "cost": 80
+                },
+            ],
+            "restrictions": [
+                {
+                    "type": "model",
+                    "name": "Tempestus Scion",
+                    "min": 4,
+                    "max": 9
+                }
+            ],
+            "additionalModels": [
+                {
+                    "name": "Tempestus Scion"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Las Pistol and Vox Caster"
+                                },
+                            ]
+                        }
+                }
+            ],
+            "models": [
+                {
+                    "name": "Tempestus Scion"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Las Pistol and Vox Caster"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Tempestus Scion"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Las Pistol and Vox Caster"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Tempestus Scion"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Las Pistol and Vox Caster"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Tempestus Scion"
+					"weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-Shot Lasgun"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Lasgun"
+                                },
+                                {
+                                    "name": "Flamer"
+                                },
+                                {
+                                    "name": "Grenade Launcher"
+                                },
+                                {
+                                    "name": "Hot-Shot Volley Gun"
+                                },
+                                {
+                                    "name": "Meltagun"
+                                },
+                                {
+                                    "name": "Plasmagun"
+                                },
+                                {
+                                    "name": "Hot-Shot Las Pistol and Vox Caster"
+                                },
+                            ]
+                        }
+                },
+                {
+                    "name": "Tempestor"
+                    "weaponOptions": [
+                        {
+                            "selectedOption": {
+                                "name": "Hot-shot Las Pistol"
+                            },
+                            "options": [
+                                {
+                                    "name": "Hot-Shot Las Pistol"
+                                },
+                                {
+                                    "name": "Plasma Pistol"
+                                },
+                                {
+                                    "name": "Bolt Pistol"
+                                },
+                            ]
+                        }
+                        {
+                            "selectedOption": {
+                                "name": "Chainsword"
+                            },
+                            "options": [
+                                {
+                                    "name": "Chainsword"
+                                },
+                                {
+                                    "name": "Power Fist"
+                                },
+                                {
+                                    "name": "Power Weapon"
+                                },
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+            "id": "w40k.10e.am.unit.Tauroxprime",
+            "type": "unit",
+            "rulesetId": "w40k.10e.am",
+            "name": "Taurox Prime",
+            "role": "VEHICLE",
+            "models": [
+                {
+                    "name": "Taurox Prime",
+                    "points": 90,
+					"weaponOptions": [
+						{
+							"selectedOption": {
+								"name": "Taurox Battle Cannon"
+							},
+							"options": [
+								{
+									"name": "Taurox Battle Cannon"
+								},
+								{
+									"name": "Taurox Gatling Cannon"
+								},
+								{
+									"name": "Taurox Missile Launcher"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": "Twin Taurox Hot-Shot Volley Gun"
+							},
+							"options": [
+								{
+									"name": "Twin Taurox Hot-Shot Volley Gun"
+								},
+								{
+									"name": "Twin Autocannon"
+								},
+							]
+                		},
+						{
+							"selectedOption": {
+								"name": ""
+							},
+							"options": [
+								{
+									"name": ""
+								},
+								{
+									"name": "Storm Bolter"
+								},
+							]
+                		},
+					]	
+                }
+			],
+		}
     ]
 }
